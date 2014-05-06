@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CD25C512-E304-4D83-9A43-42C8EEDA7A9F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GoAppTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>66F73AD0-9190-4DFD-9A4B-61375BDDCBFA</key>
+		<string>svn://localhost/local/trunk/IOS/GoAppTest</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GoAppTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>66F73AD0-9190-4DFD-9A4B-61375BDDCBFA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>66F73AD0-9190-4DFD-9A4B-61375BDDCBFA</key>
+		<string>svn://localhost/local</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://localhost/local/trunk/IOS/GoAppTest/GoAppTest.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>66F73AD0-9190-4DFD-9A4B-61375BDDCBFA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>66F73AD0-9190-4DFD-9A4B-61375BDDCBFA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GoAppTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>GHUnitTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>GoAppTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>140D0E1418A9D749006BE149</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>140D0E3518A9D749006BE149</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1498159018B341EC00F3ED9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>149815A618B341EC00F3ED9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>149815BE18B342AE00F3ED9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>149815D418B342AE00F3ED9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

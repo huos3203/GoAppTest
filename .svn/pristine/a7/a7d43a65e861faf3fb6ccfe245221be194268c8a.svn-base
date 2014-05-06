@@ -1,0 +1,19 @@
+simulated metrics
+       size
+       orientation
+       status bar
+       top bar 
+       bottom bar
+
+view controller
+        title
+            initial scene
+        layout 
+            adjust scroll view insets
+            hide bottom bar on push 
+            resize view from nib 
+            use full screen (Deprecated)
+        extend edges
+
+
+
