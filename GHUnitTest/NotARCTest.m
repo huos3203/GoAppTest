@@ -149,7 +149,7 @@
     NSEnumerator *keyEnum = [mDic keyEnumerator]; //获得key的枚举器
     id  key1;
     while (key1 = [keyEnum nextObject]) {
-        NSLog("%@:%@",key1,[mDic objectForKey:key1]);
+        NSLog(@"%@:%@",key1,[mDic objectForKey:key1]);
     }
     
 }

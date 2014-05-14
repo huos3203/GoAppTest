@@ -12,4 +12,5 @@
 
 -(void)buildDatabase;
 -(void)insertDatabase;
+-(void)createTableName:(NSString *)tableName;
 @end

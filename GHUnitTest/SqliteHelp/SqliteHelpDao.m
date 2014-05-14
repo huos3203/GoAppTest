@@ -13,7 +13,8 @@
 -(void)buildDatabase
 {
     NSError *error;
-    NSString *textFile = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"schema.sqlite.tables.sql" ofType:nil] encoding:NSUTF8StringEncoding error:&error];
+    NSString *textFile = @"张三;李四;王二;马六";
+//    NSString *textFile = @"111;222;333;444;555";
     if (textFile == nil) {
         NSLog(@"Error reading text file.%@",[error localizedFailureReason]);
     }
@@ -21,10 +22,16 @@
     NSInteger count = [row count];
     SqliteHelp *t = [SqliteHelp new];
     for (int i = 0; i < count; i++) {
-        NSString *tempString = [NSString stringWithFormat:@"%@;",row[i]];
+        NSString *tempString = [NSString stringWithFormat:@"%@",row[i]];
         NSLog(@"%@",tempString);
         [t insertOrUpdateData:tempString];
     }
+}
+
+-(void)createTableName:(NSString *)tableName
+{
+    SqliteHelp *sqlhelp = [SqliteHelp new];
+    [sqlhelp creatTable:tableName];
 }
 
 
@@ -39,7 +46,7 @@
     NSInteger count = [row count];
     SqliteHelp *t = [SqliteHelp new];
     for (int i = 0; i < count; i++) {
-        NSString *tempString = [NSString stringWithFormat:@"%@;",row[i]];
+        NSString *tempString = [NSString stringWithFormat:@"%@",row[i]];
         NSLog(@"%@",tempString);
         [t insertOrUpdateData:tempString];
     }

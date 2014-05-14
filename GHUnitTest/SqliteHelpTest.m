@@ -25,4 +25,10 @@
     SqliteHelpDao *dao = [SqliteHelpDao new];
     [dao insertDatabase];
 }
+
+-(void)testCreateTable
+{
+    SqliteHelpDao *dao = [SqliteHelpDao new];
+    [dao createTableName:@"textfile"];
+}
 @end

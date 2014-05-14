@@ -18,6 +18,11 @@
 //打开数据库，并加密数据库文件
 -(BOOL)openDatabase
 {
+    /**
+        DB_NAME 是定义的 数据库文件名的宏",
+        66c9a^N" 是你要设置的数据库密钥
+        sqlite3_key(_database, key, (int)strlen(key));这个方法里就包含了 加解密的过程!
+     */
     if (sqlite3_open([[self dataFilePath:DB_NAME] UTF8String], &_database) == SQLITE_OK) {
         const char *key = [@",66c9a^N" UTF8String];         //数据库文件加密
         sqlite3_key(_database,key,(int)strlen(key));             //数据库文件加密
@@ -44,11 +49,43 @@
     return [documentsDirectory stringByAppendingPathComponent:fileName];
 }
 
+//创建表结构
+-(BOOL)creatTable:(NSString *)tableName
+{
+    NSString *sql = [NSString stringWithFormat:@"create table  IF NOT EXISTS %@ (id INTEGER,name text)",tableName];
+    if ([self openDatabase]) {
+        if (sqlite3_exec(_database, [sql UTF8String], nil, &_statement, &_errmsg)!=SQLITE_OK) {
+            NSLog(@"\n==新建表创建失败===\n");
+            NSLog(@"\n===sql Error:%s",_errmsg);
+        }else{
+            NSLog(@"\n===新表创建成功====\n");
+            
+            //获取旧表中的字段名
+            NSString *theSql=[NSString stringWithFormat:@"select * from %@",tableName];
+            if (sqlite3_prepare(_database, [theSql UTF8String], -1, &_statement, nil) == SQLITE_OK) {
+                int ii = sqlite3_column_type(_statement, 0);
+                const char *iname = sqlite3_column_name(_statement, 0);
+                int iicount = sqlite3_column_count(_statement);
+//                sqlite3_value *ivalue = sqlite3_column_value(_statement, 1);
+//                [sqlite3_value valueForKey:<#(NSString *)#>]
+                NSLog(@"表字段列数：%d ,对表字段字段列名：%@ 表字段列的数据类型：%d ,表字段的值:",iicount,[NSString stringWithFormat:@"%s",iname],ii);
+            }
+        }
+    }
+    sqlite3_close(_database);
+    return NO;
+}
+
 //添加数据，更新数据
 -(BOOL)insertOrUpdateData:(NSString *)sql
 {
+//   [ insert (文件名) values(data1, data2, data3, ...);]
+    sql = [NSString stringWithFormat:@"insert  into textfile (name) values (%@);",sql];
+//    sql = [NSString stringWithFormat:@"update textfile name = %@ where rowid = %d",];/
+    const char *st = [sql UTF8String];
     if ([self openDatabase]) {
-        if ((sqlite3_exec(_database, [sql UTF8String], nil, &_statement, &_errmsg)!= SQLITE_OK)) {
+        int ii = sqlite3_exec(_database,st, nil, &_statement, &_errmsg);
+        if (ii != SQLITE_OK) {
             NSLog(@"\n===插入数据失败 ===\n");
             NSLog(@"\n== sql Error:%s",_errmsg);
             return  NO;
@@ -103,23 +140,4 @@
 
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
