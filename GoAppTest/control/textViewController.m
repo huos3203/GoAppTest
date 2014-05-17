@@ -18,20 +18,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(alertHiden:) name:@"alerthiden" object:nil];
     
     //注册通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleKeyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleKeyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
 }
-
-//- (void)alertHiden:(NSNotification *)ntf
-//{
-//    
-//    [_text1 resignFirstResponder];
-//    [_text2 resignFirstResponder];
-//}
 
 - (IBAction)hindeKey:(id)sender {
     

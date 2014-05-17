@@ -125,6 +125,7 @@
 
 -(int)getCountOfDatabase
 {
+    
     int count = 0;
     NSString *sql = [NSString stringWithFormat:@"select * from User"];
     if ([self openDatabase]) {

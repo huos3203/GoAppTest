@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+
+//隐藏键盘测试案例
 @interface textViewController : UIViewController
 {
     

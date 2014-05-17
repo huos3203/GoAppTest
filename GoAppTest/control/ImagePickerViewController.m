@@ -26,6 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[CATransition animation] delegate];
+//    UIImageView
 	// Do any additional setup after loading the view.
     if ([[self class] isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
         self.sourceType = UIImagePickerControllerSourceTypeCamera;

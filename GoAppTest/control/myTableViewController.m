@@ -12,25 +12,16 @@
 
 @interface myTableViewController ()
 {
-    UIAlertView *_alert;
-    WeixinDialog *_weixinDialog;
-    CustomIOS7AlertView *_alertView;
+    UIAlertView *_alert;                            //系统提示框
+    WeixinDialog *_weixinDialog;            //自定义View 提示框
+    CustomIOS7AlertView *_alertView;    //
     NSString *_strContent;
-    UITextField *_messageLable;
+    UITextField *_messageLable;             //定义全局控件用来传递提示框中的控件值
 }
 
 @end
 
 @implementation myTableViewController
-
-//- (id)initWithStyle:(UITableViewStyle)style
-//{
-//    self = [super initWithStyle:style];
-//    if (self) {
-//        // Custom initialization
-//    }
-//    return self;
-//}
 
 - (void)viewDidLoad
 {
@@ -45,13 +36,13 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(alertHiden:) name:@"alerthiden" object:nil];
 }
+
+//响应通知中心，关闭提示框
 - (void)alertHiden:(NSNotification *)ntf
 {
     if (_alertView!=nil) {
         [_alertView close];
     }
-    
-
 }
 
 - (void)didReceiveMemoryWarning
@@ -93,17 +84,13 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.row == 0) {
+        //测试提示框
         [self showDialog];
-//        [[[singletonAlertView sharedsingletonAlertView] initWithTitle:@"nihao" message:@"nihao" delegate:nil cancelButtonTitle:@"quxiao" otherButtonTitles:nil, nil] show];
-        
-//        _alert = [[UIAlertView alloc] initWithTitle:@"全局alert" message:@"关闭alert测试" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-//        [_alert show];
     }else if(indexPath.row == 1){
-    
         //执行这句话的前提:shouldPerformSegueWithIdentifier:方法返回NO
         [self testPresentViewController];
-       
     }else if(indexPath.row == 2){
+        //调用系统拍照功能
         [self cameraAction:nil];
     }
 }
@@ -207,6 +194,8 @@
     }
     [self presentViewController:picker animated:YES completion:nil];
 }
+
+
 -(void)viewWillDisappear:(BOOL)animated{
 //    [_alert dismissWithClickedButtonIndex:0 animated:YES];
 //    [[singletonAlertView sharedsingletonAlertView] dismissWithClickedButtonIndex:0 animated:YES];

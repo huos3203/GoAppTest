@@ -1,0 +1,127 @@
+//
+//  PYCCParser.m
+//  PYCDRM
+//
+//  Created by lx on 14-1-14.
+//  Copyright (c) 2014年 liuning. All rights reserved.
+//
+
+#import "PYCCParser.h"
+#import "AudioAESHelper.h"
+#import "UpdateOperateor.h"
+#import "Macros.h"
+
+#define FILEINFOFILENAME @"FileInfoFileName"
+#define FILEINFOFILESTARTPOINT @"FileInfoFileStartPoint"
+#define FILEINFOFILEOFFSET @"FileInfoFileOffset"
+
+#define FILEHEADFILENAMESIZE 40  //fileHeadFileNameSize
+#define FILEHEADSTARTPOINTSIZE 8  //fileHeadStartPointSize
+#define FILEHEADOFFSETSIZE 8       //fileHeadOffsetSize
+
+#define MD5LENGTH 32        //MD5length
+
+#define Swap64(ll) (((ll) >> 56) | \
+(((ll) & 0x00ff000000000000) >> 40) |\
+(((ll) & 0x0000ff0000000000) >> 24) |\
+(((ll) & 0x000000ff00000000) >> 8)    |\
+(((ll) & 0x00000000ff000000) << 8)    |\
+(((ll) & 0x0000000000ff0000) << 24) |\
+(((ll) & 0x000000000000ff00) << 40) |\
+(((ll) << 56)))
+
+@interface PYCCParser ()
+@property (nonatomic,retain) NSMutableArray * fileInfoArray;
+@end
+
+@implementation PYCCParser
+
+- (NSMutableArray *)fileInfoArray{
+    if (!_fileInfoArray) {
+        _fileInfoArray = [[NSMutableArray alloc] initWithCapacity:0];
+    }
+    return _fileInfoArray;
+}
+
++ (BOOL)parserFileAtPath:(NSString *)filePath toDirectory:(NSString *)dDir{
+	//????????
+    NSMutableArray * fileInfoArray = [[NSMutableArray alloc] initWithCapacity:0];
+	// ??????
+    NSFileHandle * fileHandle = [NSFileHandle fileHandleForReadingAtPath:filePath];
+
+    //    unsigned long long testLength;
+	// ???????????NSData?
+    NSData * allData = [fileHandle readDataToEndOfFile];
+	//????0
+    [fileHandle seekToFileOffset:0];
+    
+    unsigned long long headOffset;
+    NSLog(@"%ld",sizeof(headOffset));
+	//??8???,unsigned long long?8???
+    NSData * data = [fileHandle readDataOfLength:sizeof(headOffset)];
+    //??????headOffset?
+    [data getBytes:&headOffset length:sizeof(headOffset)];
+    headOffset = Swap64(headOffset);
+    
+    data = [fileHandle readDataOfLength:(NSInteger)(headOffset - sizeof(headOffset))];
+ 
+    unsigned long long aHeadInfoLength = FILEHEADFILENAMESIZE + FILEHEADSTARTPOINTSIZE + FILEHEADOFFSETSIZE;
+    unsigned long long headInfoCount = headOffset/aHeadInfoLength;
+    
+    NSRange range = NSMakeRange(0, FILEHEADFILENAMESIZE);
+    char * pTempFileName = malloc(FILEHEADFILENAMESIZE);
+    unsigned long long startPoint = 0;
+    unsigned long long offset = 0;
+    
+    for (int i = 0; i < headInfoCount; i++) {
+        [data getBytes:pTempFileName range:range];
+        range.location += FILEHEADFILENAMESIZE;
+        range.length = FILEHEADSTARTPOINTSIZE;
+        [data getBytes:&startPoint range:range];
+        startPoint = Swap64(startPoint);
+        startPoint += headOffset;
+        range.location += FILEHEADSTARTPOINTSIZE;
+        range.length = FILEHEADOFFSETSIZE;
+        [data getBytes:&offset range:range];
+        offset = Swap64(offset);
+        range.location += FILEHEADOFFSETSIZE;
+        range.length = FILEHEADFILENAMESIZE;
+        
+        /*
+         1,get fileInfo from head
+         2,store the fileinfo to dict
+         3,store the dict to array
+         --------actually this array is not usefull
+         */
+        NSString * fileName = [[NSString alloc] initWithBytes:pTempFileName length:FILEHEADFILENAMESIZE encoding:NSUTF8StringEncoding];
+        NSNumber * startPointObj = [NSNumber numberWithLongLong:startPoint];
+        NSNumber * offsetObj = [NSNumber numberWithLongLong:offset];
+        
+        NSMutableDictionary * dict = [[NSMutableDictionary alloc] init];
+        [dict setObject:fileName forKey:FILEINFOFILENAME];
+        [dict setObject:startPointObj forKey:FILEINFOFILESTARTPOINT];
+        [dict setObject:offsetObj forKey:FILEINFOFILEOFFSET];
+        [fileInfoArray addObject:dict];
+        
+        /*read file from source file,write it to destination directory*/
+        NSString * destFilePath = [dDir stringByAppendingPathComponent:fileName];
+        [fileHandle seekToFileOffset:startPoint];
+        NSData * sourceFileData = [fileHandle readDataOfLength:(NSInteger)(offset - MD5LENGTH)];
+        NSData * fileMD5Digest = [fileHandle readDataOfLength:MD5LENGTH];
+        static int i = 1;
+        i++;
+        [[NSFileManager defaultManager] createFileAtPath:destFilePath contents:sourceFileData attributes:nil];
+    }
+    free(pTempFileName);
+    return YES;
+
+    }
+
+
+
+
+#pragma mark - private method
+
+
+
+@end

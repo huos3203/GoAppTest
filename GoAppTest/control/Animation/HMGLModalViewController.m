@@ -1,21 +1,20 @@
 //
-//  testViewController.m
+//  HMGLModalViewController.m
 //  GoAppTest
 //
-//  Created by huoshuguang on 14-4-23.
+//  Created by huoshuguang on 14-5-16.
 //  Copyright (c) 2014年 sqliteTest. All rights reserved.
 //
 
-#import "testViewController.h"
+#import "HMGLModalViewController.h"
 
-@interface testViewController ()
+@interface HMGLModalViewController ()
 
 @end
 
-@implementation testViewController
+@implementation HMGLModalViewController
 
-@synthesize ibTestBtn;
-
+@synthesize delegate;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -37,11 +36,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)ibaTest:(id)sender {
-    
-    NSLog(@"TestButton");
-//    [ibTestBtn.titleLabel setText:@"点击"];
-//    ibTestBtn.titleLabel.text = @"点击";
-    [ibTestBtn setTitle:@"点击" forState:UIControlStateNormal];
+- (IBAction)ibaColseModalView:(id)sender {
+    [delegate HMGLModalViewControllerDidfinish:self];
 }
 @end
