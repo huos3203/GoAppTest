@@ -52,6 +52,14 @@
     
     // Creating singleton of transition manager here helps to reduce lag when showing first transition.
 	[HMGLTransitionManager sharedTransitionManager];
+    
+    UIView *footView = [[UIView alloc] initWithFrame:view1.frame];
+    [footView addSubview:view1];
+    self.tableView.tableFooterView = footView;
+
+//    UIView *heardview = [[UIView alloc] initWithFrame:view1.frame];
+//    [heardview addSubview:view1];
+//    self.tableView.tableHeaderView = heardview;
 }
 
 -(void)HMGLModalViewControllerDidfinish:(HMGLModalViewController *)HMGLModalViewController
