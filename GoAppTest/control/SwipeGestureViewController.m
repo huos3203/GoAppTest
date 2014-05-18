@@ -63,17 +63,7 @@
     
     //指定2秒后清除 label
     [self.swipeGesture performSelector:@selector(setText:) withObject:@"" afterDelay:2];
-    
-    
-    
-  
-    
-    
-    
-    
-    
-    
-    
+
     
 }
 @end

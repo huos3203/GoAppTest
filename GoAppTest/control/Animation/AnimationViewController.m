@@ -28,6 +28,7 @@
 
 - (void)viewDidLoad
 {
+//    UIScrollView
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     view1 = [[UIView alloc] initWithFrame:self.animationView.frame];
@@ -112,6 +113,7 @@
     CATransition *animation = [CATransition animation];
     animation.delegate = self;          //设置代理
     animation.duration = 2.0;           //设置动画持续时长
+//     animation.timingFunction = [CAMediaTimingFunction functionWithName:@"easeInEaseOut"];
     animation.timingFunction = UIViewAnimationCurveEaseInOut;       //开始和结束时的动画效果比较慢
     
     //动画类型
@@ -120,6 +122,7 @@
     //parentView 执行动画的时，调用两个视图的位置，以达到视图切换的动画效果
     [self.animationView exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
     //给视图添加动画
+    
     [[self.animationView layer] addAnimation:animation forKey:@"animation"];
     //导航控制器添加切换动画
     [[self.navigationController.view layer] addAnimation:animation forKey:@"animation"];
