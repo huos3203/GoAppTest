@@ -171,6 +171,7 @@
     if ([platform isEqualToString:@"iPhone2,1"])    return @"iPhone 3GS";
     if ([platform isEqualToString:@"iPhone3,1"])    return @"iPhone 4";
     if ([platform isEqualToString:@"iPhone3,3"])    return @"Verizon iPhone 4";
+    if ([platform isEqualToString:@"iPhone4,1"])    return @"iPhone 4";
     if ([platform isEqualToString:@"iPhone5,2"])    return @"iPhone 5";
     if ([platform isEqualToString:@"iPod1,1"])      return @"iPod Touch 1G";
     if ([platform isEqualToString:@"iPod2,1"])      return @"iPod Touch 2G";

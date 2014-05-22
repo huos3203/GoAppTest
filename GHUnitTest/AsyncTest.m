@@ -252,7 +252,7 @@
     //为犯人添加观察者 ：警察，警察关注犯人的name是否发生变化，如果发生变化就立即通知警察，也就是调用Police中得observeValueForKeyPath方法
     //换句话说就是警察对犯人的名字很感兴趣，他订阅了对犯人的名字变化的事件，这个事件只要发生了，警察就会收到通知。
     
-    [prisoner addObserver: police forKeyPath: @"name"
+    [prisoner addObserver:police forKeyPath: @"name"
                   options: NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld
                   context: nil];
     //addObserver的调用者是要被监视的对象，第一个参数是监视者，第二个参数是被监视的某个属性（使用KVC机制，也就是KVO基于KVC）,第三个参数是被监视属性值改变的类型，这里监听Old,New,即Cocoa会把name属性改变之前的旧值，与改变之后的新值都传递到Police的处理通知的方法，最后一个参数为暂且传入nil

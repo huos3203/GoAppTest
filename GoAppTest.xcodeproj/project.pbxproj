@@ -146,11 +146,16 @@
 		8428A6031903DD9D00084BB3 /* Police.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428A5F31903DD9D00084BB3 /* Police.m */; };
 		8428A6041903DD9D00084BB3 /* Prisoner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428A5F51903DD9D00084BB3 /* Prisoner.m */; };
 		8428A6071905420300084BB3 /* SwipeGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428A6061905420300084BB3 /* SwipeGestureViewController.m */; };
+		844070541928E602001BD6F4 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844070531928E602001BD6F4 /* TouchViewController.m */; };
 		8473C055191BDF990008572B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21E2191BDBE10069BF1C /* libcrypto.a */; };
 		8473C056191BDF990008572B /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21ED191BDD3C0069BF1C /* libsqlcipher.a */; };
 		8473C05A191BE0840008572B /* SqliteHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473C059191BE0840008572B /* SqliteHelp.m */; };
 		8473C05D191BEC1B0008572B /* SqliteHelpDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473C05C191BEC1B0008572B /* SqliteHelpDao.m */; };
 		8473C060191BEFD30008572B /* SqliteHelpTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473C05F191BEFD30008572B /* SqliteHelpTest.m */; };
+		8479EDF2192D997200F23223 /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479EDF1192D997200F23223 /* AutoLayoutViewController.m */; };
+		8479EDF5192DAA1E00F23223 /* IntrinsicContentSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479EDF4192DAA1E00F23223 /* IntrinsicContentSizeViewController.m */; };
+		8479EDF8192DAB7200F23223 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479EDF7192DAB7200F23223 /* MyView.m */; };
+		8479EDFB192DF02900F23223 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479EDFA192DF02900F23223 /* MyCell.m */; };
 		847D21F2191BDD770069BF1C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21E2191BDBE10069BF1C /* libcrypto.a */; };
 		847D21F3191BDD770069BF1C /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21ED191BDD3C0069BF1C /* libsqlcipher.a */; };
 		849202F319238EC200A45357 /* app_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 849202EB19238EC200A45357 /* app_bg.png */; };
@@ -163,6 +168,7 @@
 		849202FA19238EC200A45357 /* weixin_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 849202F219238EC200A45357 /* weixin_flag.png */; };
 		849202FD1923A4F400A45357 /* FontTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849202FC1923A4F400A45357 /* FontTableViewController.m */; };
 		849203001924A52D00A45357 /* ToolsGHTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 849202FF1924A52D00A45357 /* ToolsGHTestCase.m */; };
+		849F056C192C891E001BDD24 /* TopsTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC78219092E510006DE7F /* TopsTools.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		84C323031925F8A40031444F /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C323021925F8A40031444F /* AnimationViewController.m */; };
 		84C6F3931906419200CCC62C /* DinerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F3921906419200CCC62C /* DinerViewController.m */; };
 		84C6F39719064A0400CCC62C /* DinerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F39619064A0400CCC62C /* DinerItem.m */; };
@@ -171,7 +177,7 @@
 		84CC6D091924C72D00787F2F /* PYCCParser in Sources */ = {isa = PBXBuildFile; fileRef = 84CC6D061924C53000787F2F /* PYCCParser */; };
 		84CC6D0D1925B7DA00787F2F /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC6D0C1925B7DA00787F2F /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		84CC6D0E1925B83E00787F2F /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC6D0C1925B7DA00787F2F /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		84CEC78319092E510006DE7F /* TopsTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC78219092E510006DE7F /* TopsTools.m */; };
+		84CEC78319092E510006DE7F /* TopsTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC78219092E510006DE7F /* TopsTools.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		84CEC78D19093AA70006DE7F /* new_feature_1-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC78719093AA70006DE7F /* new_feature_1-568h@2x.png */; };
 		84CEC78E19093AA70006DE7F /* new_feature_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC78819093AA70006DE7F /* new_feature_1@2x.png */; };
 		84CEC78F19093AA70006DE7F /* new_feature_2-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC78919093AA70006DE7F /* new_feature_2-568h@2x.png */; };
@@ -180,6 +186,9 @@
 		84CEC79219093AA70006DE7F /* new_feature_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CEC78C19093AA70006DE7F /* new_feature_3@2x.png */; };
 		84E456821928820F00C06FE5 /* DirectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E456811928820F00C06FE5 /* DirectionViewController.m */; };
 		84E456841928826100C06FE5 /* ImageScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E456831928826100C06FE5 /* ImageScrollView.xib */; };
+		84E456881928AD3A00C06FE5 /* MyBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E456871928AD3A00C06FE5 /* MyBlock.m */; };
+		84E4568B1928B5DF00C06FE5 /* BlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4568A1928B5DF00C06FE5 /* BlockButton.m */; };
+		84E4568E1928B93D00C06FE5 /* BlockUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4568D1928B93D00C06FE5 /* BlockUIAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -413,11 +422,21 @@
 		8428A5F51903DD9D00084BB3 /* Prisoner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prisoner.m; sourceTree = "<group>"; };
 		8428A6051905420300084BB3 /* SwipeGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeGestureViewController.h; sourceTree = "<group>"; };
 		8428A6061905420300084BB3 /* SwipeGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeGestureViewController.m; sourceTree = "<group>"; };
+		844070521928E602001BD6F4 /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		844070531928E602001BD6F4 /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
 		8473C058191BE0840008572B /* SqliteHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteHelp.h; sourceTree = "<group>"; };
 		8473C059191BE0840008572B /* SqliteHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteHelp.m; sourceTree = "<group>"; };
 		8473C05B191BEC1B0008572B /* SqliteHelpDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteHelpDao.h; sourceTree = "<group>"; };
 		8473C05C191BEC1B0008572B /* SqliteHelpDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteHelpDao.m; sourceTree = "<group>"; };
 		8473C05F191BEFD30008572B /* SqliteHelpTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteHelpTest.m; sourceTree = "<group>"; };
+		8479EDF0192D997200F23223 /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		8479EDF1192D997200F23223 /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
+		8479EDF3192DAA1E00F23223 /* IntrinsicContentSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntrinsicContentSizeViewController.h; sourceTree = "<group>"; };
+		8479EDF4192DAA1E00F23223 /* IntrinsicContentSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntrinsicContentSizeViewController.m; sourceTree = "<group>"; };
+		8479EDF6192DAB7200F23223 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		8479EDF7192DAB7200F23223 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		8479EDF9192DF02900F23223 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		8479EDFA192DF02900F23223 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		847D21DA191BDBE10069BF1C /* openssl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openssl.xcodeproj; path = ../../../../../GitRepos/Repos/SQLCipherApp/openssl.xcodeproj; sourceTree = "<group>"; };
 		847D21E7191BDD3B0069BF1C /* sqlcipher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlcipher.xcodeproj; path = ../../../../../GitRepos/Repos/SQLCipherApp/sqlcipher.xcodeproj; sourceTree = "<group>"; };
 		849202EB19238EC200A45357 /* app_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_bg.png; sourceTree = "<group>"; };
@@ -453,6 +472,12 @@
 		84E456801928820F00C06FE5 /* DirectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionViewController.h; sourceTree = "<group>"; };
 		84E456811928820F00C06FE5 /* DirectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionViewController.m; sourceTree = "<group>"; };
 		84E456831928826100C06FE5 /* ImageScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageScrollView.xib; sourceTree = "<group>"; };
+		84E456861928AD3A00C06FE5 /* MyBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBlock.h; sourceTree = "<group>"; };
+		84E456871928AD3A00C06FE5 /* MyBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBlock.m; sourceTree = "<group>"; };
+		84E456891928B5DF00C06FE5 /* BlockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockButton.h; sourceTree = "<group>"; };
+		84E4568A1928B5DF00C06FE5 /* BlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockButton.m; sourceTree = "<group>"; };
+		84E4568C1928B93D00C06FE5 /* BlockUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockUIAlertView.h; sourceTree = "<group>"; };
+		84E4568D1928B93D00C06FE5 /* BlockUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockUIAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -564,6 +589,7 @@
 		1498157118B308B800F3ED9C /* control */ = {
 			isa = PBXGroup;
 			children = (
+				8479EDEF192D990000F23223 /* autoLayout */,
 				84C322FF1925F87F0031444F /* Animation */,
 				84C6F390190640E000CCC62C /* Diner */,
 				1498157218B308B800F3ED9C /* ImagePickerViewController.h */,
@@ -612,6 +638,7 @@
 				8428A5E41903DD9D00084BB3 /* MyCategory */,
 				8428A5E71903DD9D00084BB3 /* MyException */,
 				8428A5EA1903DD9D00084BB3 /* MyProtocol */,
+				84E456851928ACEC00C06FE5 /* MyBlock */,
 				8428A5EC1903DD9D00084BB3 /* MyThread */,
 				8428A5F11903DD9D00084BB3 /* Police */,
 				14371B4B18B346BC00E04D6A /* GHUnitIOS.framework */,
@@ -942,6 +969,19 @@
 			path = SqliteHelp;
 			sourceTree = "<group>";
 		};
+		8479EDEF192D990000F23223 /* autoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8479EDF0192D997200F23223 /* AutoLayoutViewController.h */,
+				8479EDF1192D997200F23223 /* AutoLayoutViewController.m */,
+				8479EDF3192DAA1E00F23223 /* IntrinsicContentSizeViewController.h */,
+				8479EDF4192DAA1E00F23223 /* IntrinsicContentSizeViewController.m */,
+				8479EDF6192DAB7200F23223 /* MyView.h */,
+				8479EDF7192DAB7200F23223 /* MyView.m */,
+			);
+			path = autoLayout;
+			sourceTree = "<group>";
+		};
 		847D21DB191BDBE10069BF1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1012,8 +1052,25 @@
 				84E456801928820F00C06FE5 /* DirectionViewController.h */,
 				84E456811928820F00C06FE5 /* DirectionViewController.m */,
 				84E456831928826100C06FE5 /* ImageScrollView.xib */,
+				8479EDF9192DF02900F23223 /* MyCell.h */,
+				8479EDFA192DF02900F23223 /* MyCell.m */,
+				84E456891928B5DF00C06FE5 /* BlockButton.h */,
+				84E4568A1928B5DF00C06FE5 /* BlockButton.m */,
+				84E4568C1928B93D00C06FE5 /* BlockUIAlertView.h */,
+				84E4568D1928B93D00C06FE5 /* BlockUIAlertView.m */,
+				844070521928E602001BD6F4 /* TouchViewController.h */,
+				844070531928E602001BD6F4 /* TouchViewController.m */,
 			);
 			path = ScrollViewVc;
+			sourceTree = "<group>";
+		};
+		84E456851928ACEC00C06FE5 /* MyBlock */ = {
+			isa = PBXGroup;
+			children = (
+				84E456861928AD3A00C06FE5 /* MyBlock.h */,
+				84E456871928AD3A00C06FE5 /* MyBlock.m */,
+			);
+			path = MyBlock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1233,6 +1290,7 @@
 				1495484F18B45980002DEE73 /* SoundViewController.m in Sources */,
 				1499FFBE18B1E8C8007A894B /* FMDatabasePool.m in Sources */,
 				841DF0A6190574C300C72F15 /* KKProgressToolbar.m in Sources */,
+				844070541928E602001BD6F4 /* TouchViewController.m in Sources */,
 				84222F341908A3D80020BC22 /* TopsTabBarViewController.m in Sources */,
 				1499FFBF18B1E8C8007A894B /* FMDatabaseQueue.m in Sources */,
 				1498157F18B308B800F3ED9C /* textViewController.m in Sources */,
@@ -1247,6 +1305,7 @@
 				8408626E19263C7E000965BF /* ClothTransition.m in Sources */,
 				8408626C19263C7E000965BF /* HMGLTransitionManager.m in Sources */,
 				1498158618B309AF00F3ED9C /* DataFactory.m in Sources */,
+				84E4568E1928B93D00C06FE5 /* BlockUIAlertView.m in Sources */,
 				849202FD1923A4F400A45357 /* FontTableViewController.m in Sources */,
 				8408627119263C7E000965BF /* RotateTransition.m in Sources */,
 				1498157C18B308B800F3ED9C /* ImagePickerViewController.m in Sources */,
@@ -1254,6 +1313,7 @@
 				8428A6071905420300084BB3 /* SwipeGestureViewController.m in Sources */,
 				8408626B19263C7E000965BF /* HMGLTransition.m in Sources */,
 				84C323031925F8A40031444F /* AnimationViewController.m in Sources */,
+				8479EDF8192DAB7200F23223 /* MyView.m in Sources */,
 				8408626F19263C7E000965BF /* DoorsTransition.m in Sources */,
 				84C6F3931906419200CCC62C /* DinerViewController.m in Sources */,
 				8408627019263C7E000965BF /* FlipTransition.m in Sources */,
@@ -1265,13 +1325,17 @@
 				149D26E018AC6612005A59E0 /* WeixinDialog.m in Sources */,
 				84CEC78319092E510006DE7F /* TopsTools.m in Sources */,
 				84222F2419068D3C0020BC22 /* DB.m in Sources */,
+				8479EDFB192DF02900F23223 /* MyCell.m in Sources */,
+				8479EDF2192D997200F23223 /* AutoLayoutViewController.m in Sources */,
 				8408626D19263C7E000965BF /* HMGLTransitionView.m in Sources */,
+				84E4568B1928B5DF00C06FE5 /* BlockButton.m in Sources */,
 				1499FFC018B1E8C8007A894B /* FMResultSet.m in Sources */,
 				149D26DD18AC6415005A59E0 /* singletonAlertView.m in Sources */,
 				1499FFC318B1E90A007A894B /* LKDaoBase.m in Sources */,
 				146C271A18E01F930052D141 /* SecretModel.m in Sources */,
 				1499FFC718B1E995007A894B /* SandboxFile.m in Sources */,
 				84CC6D071924C53000787F2F /* PYCCParser in Sources */,
+				8479EDF5192DAA1E00F23223 /* IntrinsicContentSizeViewController.m in Sources */,
 				1499FFBC18B1E8C8007A894B /* FMDatabase.m in Sources */,
 				1499FFBD18B1E8C8007A894B /* FMDatabaseAdditions.m in Sources */,
 				1498157E18B308B800F3ED9C /* myTableViewController.m in Sources */,
@@ -1283,9 +1347,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849F056C192C891E001BDD24 /* TopsTools.m in Sources */,
 				84CC6D0E1925B83E00787F2F /* OpenUDID.m in Sources */,
 				84CC6D091924C72D00787F2F /* PYCCParser in Sources */,
 				84222F29190693750020BC22 /* TestDao.m in Sources */,
+				84E456881928AD3A00C06FE5 /* MyBlock.m in Sources */,
 				84222F281906935F0020BC22 /* DB.m in Sources */,
 				8473C060191BEFD30008572B /* SqliteHelpTest.m in Sources */,
 				849203001924A52D00A45357 /* ToolsGHTestCase.m in Sources */,
@@ -1535,6 +1601,8 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4CAEBAE3-4834-4A11-9879-3991319C65E4";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1559,6 +1627,8 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4CAEBAE3-4834-4A11-9879-3991319C65E4";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
