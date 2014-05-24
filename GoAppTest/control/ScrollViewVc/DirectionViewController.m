@@ -15,7 +15,7 @@
 
 @implementation DirectionViewController
 {
-//    NSArray *tableArr;
+
     NSMutableArray *imgScrollArr;
     
     //测试数据源
@@ -47,11 +47,7 @@
         _x += 320;
         [imgScrollArr addObject:ibImageScrollView];
     }
-    //    _ibImgScrollview = ibImageScrollView;
 
-//    tableArr = [NSArray arrayWithObjects:@"表格1",@"表格2",@"表格3",@"表格4" ,@"表格5",nil];
-    
-    
     //viewDidLoad 初始化
     _dataSource = [NSMutableArray arrayWithArray:@[@"Mgen", @"Tony", @"Jerry", @"一二三"]];
     _cellCache = [NSMutableDictionary dictionary];
@@ -106,11 +102,8 @@
     [_cellCache setObject:cell forKey:@(indexPath.row)];
     
     //更新UIView的layout过程和Autolayout
-    UIView *content = cell.contentView;
-    NSArray *arr = [content subviews];
     [cell setNeedsUpdateConstraints];
     [cell updateConstraintsIfNeeded];
-    
     [cell.contentView setNeedsLayout];
     [cell.contentView layoutIfNeeded];
     
@@ -134,9 +127,9 @@
     }
     return cachedCell;
 }
+
 /*
     把创建Cell逻辑写在一个方法内
- （注意在heightForRowAtIndexPath:indexPath中无法使用dequeueReusableCellWithIdentifier:forIndexPath:，所以用dequeueReusableCellWithIdentifier方法）
  */
 - (MyCell*)getCellFromIndexPath:(NSIndexPath*)indexPath
 {
