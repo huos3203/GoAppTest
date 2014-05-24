@@ -158,9 +158,14 @@
 		8473C05A191BE0840008572B /* SqliteHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473C059191BE0840008572B /* SqliteHelp.m */; };
 		8473C05D191BEC1B0008572B /* SqliteHelpDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473C05C191BEC1B0008572B /* SqliteHelpDao.m */; };
 		8473C060191BEFD30008572B /* SqliteHelpTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473C05F191BEFD30008572B /* SqliteHelpTest.m */; };
+		8478BA7119304FA200E6091A /* IntrinsicContentSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8478BA6E19304FA200E6091A /* IntrinsicContentSizeViewController.m */; };
+		8478BA7219304FA200E6091A /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8478BA7019304FA200E6091A /* MyView.m */; };
+		8478BA771930501C00E6091A /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8478BA761930501C00E6091A /* GalleryViewController.m */; };
+		8478BA7C19305BE800E6091A /* Brad Cox.png in Resources */ = {isa = PBXBuildFile; fileRef = 8478BA7819305BE800E6091A /* Brad Cox.png */; };
+		8478BA7D19305BE800E6091A /* Dennis Ritchie.png in Resources */ = {isa = PBXBuildFile; fileRef = 8478BA7919305BE800E6091A /* Dennis Ritchie.png */; };
+		8478BA7E19305BE800E6091A /* Matthijs.png in Resources */ = {isa = PBXBuildFile; fileRef = 8478BA7A19305BE800E6091A /* Matthijs.png */; };
+		8478BA7F19305BE800E6091A /* Ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 8478BA7B19305BE800E6091A /* Ray.png */; };
 		8479EDF2192D997200F23223 /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479EDF1192D997200F23223 /* AutoLayoutViewController.m */; };
-		8479EDF5192DAA1E00F23223 /* IntrinsicContentSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479EDF4192DAA1E00F23223 /* IntrinsicContentSizeViewController.m */; };
-		8479EDF8192DAB7200F23223 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479EDF7192DAB7200F23223 /* MyView.m */; };
 		8479EDFB192DF02900F23223 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479EDFA192DF02900F23223 /* MyCell.m */; };
 		847D21F2191BDD770069BF1C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21E2191BDBE10069BF1C /* libcrypto.a */; };
 		847D21F3191BDD770069BF1C /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21ED191BDD3C0069BF1C /* libsqlcipher.a */; };
@@ -447,12 +452,18 @@
 		8473C05B191BEC1B0008572B /* SqliteHelpDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteHelpDao.h; sourceTree = "<group>"; };
 		8473C05C191BEC1B0008572B /* SqliteHelpDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteHelpDao.m; sourceTree = "<group>"; };
 		8473C05F191BEFD30008572B /* SqliteHelpTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteHelpTest.m; sourceTree = "<group>"; };
+		8478BA6D19304FA200E6091A /* IntrinsicContentSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntrinsicContentSizeViewController.h; sourceTree = "<group>"; };
+		8478BA6E19304FA200E6091A /* IntrinsicContentSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntrinsicContentSizeViewController.m; sourceTree = "<group>"; };
+		8478BA6F19304FA200E6091A /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		8478BA7019304FA200E6091A /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		8478BA751930501C00E6091A /* GalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryViewController.h; sourceTree = "<group>"; };
+		8478BA761930501C00E6091A /* GalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
+		8478BA7819305BE800E6091A /* Brad Cox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brad Cox.png"; sourceTree = "<group>"; };
+		8478BA7919305BE800E6091A /* Dennis Ritchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dennis Ritchie.png"; sourceTree = "<group>"; };
+		8478BA7A19305BE800E6091A /* Matthijs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Matthijs.png; sourceTree = "<group>"; };
+		8478BA7B19305BE800E6091A /* Ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ray.png; sourceTree = "<group>"; };
 		8479EDF0192D997200F23223 /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
 		8479EDF1192D997200F23223 /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
-		8479EDF3192DAA1E00F23223 /* IntrinsicContentSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntrinsicContentSizeViewController.h; sourceTree = "<group>"; };
-		8479EDF4192DAA1E00F23223 /* IntrinsicContentSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntrinsicContentSizeViewController.m; sourceTree = "<group>"; };
-		8479EDF6192DAB7200F23223 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
-		8479EDF7192DAB7200F23223 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 		8479EDF9192DF02900F23223 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		8479EDFA192DF02900F23223 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		847D21DA191BDBE10069BF1C /* openssl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openssl.xcodeproj; path = ../../../../../GitRepos/Repos/SQLCipherApp/openssl.xcodeproj; sourceTree = "<group>"; };
@@ -804,6 +815,10 @@
 		841DF0A819061B5500C72F15 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				8478BA7819305BE800E6091A /* Brad Cox.png */,
+				8478BA7919305BE800E6091A /* Dennis Ritchie.png */,
+				8478BA7A19305BE800E6091A /* Matthijs.png */,
+				8478BA7B19305BE800E6091A /* Ray.png */,
 				8408627A192642CD000965BF /* HMLogo.png */,
 				849202EB19238EC200A45357 /* app_bg.png */,
 				849202EC19238EC200A45357 /* btn_done_down@2x.png */,
@@ -1006,15 +1021,33 @@
 			path = SqliteHelp;
 			sourceTree = "<group>";
 		};
+		8478BA6C19304FA200E6091A /* IntrinsicContentSize */ = {
+			isa = PBXGroup;
+			children = (
+				8478BA6D19304FA200E6091A /* IntrinsicContentSizeViewController.h */,
+				8478BA6E19304FA200E6091A /* IntrinsicContentSizeViewController.m */,
+				8478BA6F19304FA200E6091A /* MyView.h */,
+				8478BA7019304FA200E6091A /* MyView.m */,
+			);
+			path = IntrinsicContentSize;
+			sourceTree = "<group>";
+		};
+		8478BA7419304FD900E6091A /* gallery */ = {
+			isa = PBXGroup;
+			children = (
+				8478BA751930501C00E6091A /* GalleryViewController.h */,
+				8478BA761930501C00E6091A /* GalleryViewController.m */,
+			);
+			path = gallery;
+			sourceTree = "<group>";
+		};
 		8479EDEF192D990000F23223 /* autoLayout */ = {
 			isa = PBXGroup;
 			children = (
 				8479EDF0192D997200F23223 /* AutoLayoutViewController.h */,
 				8479EDF1192D997200F23223 /* AutoLayoutViewController.m */,
-				8479EDF3192DAA1E00F23223 /* IntrinsicContentSizeViewController.h */,
-				8479EDF4192DAA1E00F23223 /* IntrinsicContentSizeViewController.m */,
-				8479EDF6192DAB7200F23223 /* MyView.h */,
-				8479EDF7192DAB7200F23223 /* MyView.m */,
+				8478BA6C19304FA200E6091A /* IntrinsicContentSize */,
+				8478BA7419304FD900E6091A /* gallery */,
 			);
 			path = autoLayout;
 			sourceTree = "<group>";
@@ -1234,6 +1267,7 @@
 				84222F351908A3D80020BC22 /* tabitemslist.plist in Resources */,
 				841DF0FA19061B5500C72F15 /* total_field@2x.png in Resources */,
 				841DF0F319061B5500C72F15 /* person.png in Resources */,
+				8478BA7F19305BE800E6091A /* Ray.png in Resources */,
 				8408627B192642CD000965BF /* HMLogo.png in Resources */,
 				849202FA19238EC200A45357 /* weixin_flag.png in Resources */,
 				140D0E3118A9D749006BE149 /* Images.xcassets in Resources */,
@@ -1264,12 +1298,14 @@
 				841DF0D919061B5500C72F15 /* button_arrow_left.png in Resources */,
 				84CEC78F19093AA70006DE7F /* new_feature_2-568h@2x.png in Resources */,
 				841DF0EE19061B5500C72F15 /* food_pizza@2x.png in Resources */,
+				8478BA7C19305BE800E6091A /* Brad Cox.png in Resources */,
 				841DF0E619061B5500C72F15 /* food_fries@2x.png in Resources */,
 				849202F319238EC200A45357 /* app_bg.png in Resources */,
 				84CEC78E19093AA70006DE7F /* new_feature_1@2x.png in Resources */,
 				849202F719238EC200A45357 /* btn_selected2.png in Resources */,
 				841DF0D519061B5500C72F15 /* bg_wall.png in Resources */,
 				841DF0E219061B5500C72F15 /* food_box@2x.png in Resources */,
+				8478BA7E19305BE800E6091A /* Matthijs.png in Resources */,
 				841DF0FB19061B5500C72F15 /* total_field_stretch.png in Resources */,
 				140D0E2318A9D749006BE149 /* InfoPlist.strings in Resources */,
 				841DF0F819061B5500C72F15 /* sign_theiOSdiner@2x.png in Resources */,
@@ -1279,6 +1315,7 @@
 				841DF0E819061B5500C72F15 /* food_hamburger@2x.png in Resources */,
 				84CEC78D19093AA70006DE7F /* new_feature_1-568h@2x.png in Resources */,
 				849202F519238EC200A45357 /* btn_done_up@2x.png in Resources */,
+				8478BA7D19305BE800E6091A /* Dennis Ritchie.png in Resources */,
 				841DF0E519061B5500C72F15 /* food_fries.png in Resources */,
 				841DF0E319061B5500C72F15 /* food_cheeseburger.png in Resources */,
 				841DF0D719061B5500C72F15 /* button_arrow.png in Resources */,
@@ -1326,6 +1363,7 @@
 				84C6F39719064A0400CCC62C /* DinerItem.m in Sources */,
 				149D26ED18ACA3D9005A59E0 /* CustomIOS7AlertView.m in Sources */,
 				1495484F18B45980002DEE73 /* SoundViewController.m in Sources */,
+				8478BA7219304FA200E6091A /* MyView.m in Sources */,
 				1499FFBE18B1E8C8007A894B /* FMDatabasePool.m in Sources */,
 				841DF0A6190574C300C72F15 /* KKProgressToolbar.m in Sources */,
 				844070541928E602001BD6F4 /* TouchViewController.m in Sources */,
@@ -1347,13 +1385,13 @@
 				1498158618B309AF00F3ED9C /* DataFactory.m in Sources */,
 				84E4568E1928B93D00C06FE5 /* BlockUIAlertView.m in Sources */,
 				849202FD1923A4F400A45357 /* FontTableViewController.m in Sources */,
+				8478BA771930501C00E6091A /* GalleryViewController.m in Sources */,
 				8408627119263C7E000965BF /* RotateTransition.m in Sources */,
 				1498157C18B308B800F3ED9C /* ImagePickerViewController.m in Sources */,
 				1498158918B30A0200F3ED9C /* TestModel.m in Sources */,
 				8428A6071905420300084BB3 /* SwipeGestureViewController.m in Sources */,
 				8408626B19263C7E000965BF /* HMGLTransition.m in Sources */,
 				84C323031925F8A40031444F /* AnimationViewController.m in Sources */,
-				8479EDF8192DAB7200F23223 /* MyView.m in Sources */,
 				8408626F19263C7E000965BF /* DoorsTransition.m in Sources */,
 				84C6F3931906419200CCC62C /* DinerViewController.m in Sources */,
 				8408627019263C7E000965BF /* FlipTransition.m in Sources */,
@@ -1379,7 +1417,7 @@
 				146C271A18E01F930052D141 /* SecretModel.m in Sources */,
 				1499FFC718B1E995007A894B /* SandboxFile.m in Sources */,
 				84CC6D071924C53000787F2F /* PYCCParser in Sources */,
-				8479EDF5192DAA1E00F23223 /* IntrinsicContentSizeViewController.m in Sources */,
+				8478BA7119304FA200E6091A /* IntrinsicContentSizeViewController.m in Sources */,
 				1499FFBC18B1E8C8007A894B /* FMDatabase.m in Sources */,
 				1499FFBD18B1E8C8007A894B /* FMDatabaseAdditions.m in Sources */,
 				1498157E18B308B800F3ED9C /* myTableViewController.m in Sources */,
