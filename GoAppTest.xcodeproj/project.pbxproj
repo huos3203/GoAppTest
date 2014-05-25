@@ -511,6 +511,9 @@
 		8478BAB71930C28300E6091A /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
 		8478BAB91930CE8200E6091A /* MyDownTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDownTask.h; sourceTree = "<group>"; };
 		8478BABA1930CE8200E6091A /* MyDownTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDownTask.m; sourceTree = "<group>"; };
+		8478BABC193194AD00E6091A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		8478BABD193194AD00E6091A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		8478BABE193194AD00E6091A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		8479EDF0192D997200F23223 /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
 		8479EDF1192D997200F23223 /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
 		8479EDF9192DF02900F23223 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
@@ -1313,6 +1316,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 140D0E0C18A9D749006BE149;
 			productRefGroup = 140D0E1618A9D749006BE149 /* Products */;
@@ -1624,6 +1628,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				140D0E2218A9D749006BE149 /* en */,
+				8478BABD193194AD00E6091A /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1632,6 +1637,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				140D0E2B18A9D749006BE149 /* Base */,
+				8478BABC193194AD00E6091A /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1640,6 +1646,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				149815C718B342AE00F3ED9C /* en */,
+				8478BABE193194AD00E6091A /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

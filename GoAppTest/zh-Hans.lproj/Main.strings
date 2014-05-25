@@ -1,0 +1,168 @@
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "0Gb-mz-Zt2"; */
+"0Gb-mz-Zt2.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "UIView Transition"; ObjectID = "0SW-0v-qG1"; */
+"0SW-0v-qG1.normalTitle" = "UIView Transition";
+
+/* Class = "IBUINavigationItem"; title = "IOSDiner"; ObjectID = "0VD-hY-lmQ"; */
+"0VD-hY-lmQ.title" = "IOSDiner";
+
+/* Class = "IBUIButton"; normalTitle = "总价格"; ObjectID = "1Ny-TM-Ztu"; */
+"1Ny-TM-Ztu.normalTitle" = "总价格";
+
+/* Class = "IBUIButton"; normalTitle = "播放"; ObjectID = "2jp-q9-AJ4"; */
+"2jp-q9-AJ4.normalTitle" = "播放";
+
+/* Class = "IBUIBarButtonItem"; title = "取消"; ObjectID = "5RJ-RN-JxH"; */
+"5RJ-RN-JxH.title" = "取消";
+
+/* Class = "IBUIButton"; normalTitle = "转为MP3"; ObjectID = "7uq-4P-VS4"; */
+"7uq-4P-VS4.normalTitle" = "转为MP3";
+
+/* Class = "IBUIViewController"; title = "订单案例"; ObjectID = "9kU-mM-c7u"; */
+"9kU-mM-c7u.title" = "订单案例";
+
+/* Class = "IBUILabel"; text = "Dennis Ritchie"; ObjectID = "CYx-it-Wu1"; */
+"CYx-it-Wu1.text" = "Dennis Ritchie";
+
+/* Class = "IBUIViewController"; title = "第二个tabBar"; ObjectID = "DbL-XT-TyQ"; */
+"DbL-XT-TyQ.title" = "第二个tabBar";
+
+/* Class = "IBUIButton"; normalTitle = "go"; ObjectID = "Dqg-Td-xr7"; */
+"Dqg-Td-xr7.normalTitle" = "go";
+
+/* Class = "IBUILabel"; text = "12k/123k"; ObjectID = "G8L-cY-FFa"; */
+"G8L-cY-FFa.text" = "12k/123k";
+
+/* Class = "IBUILabel"; text = "输入下载地址："; ObjectID = "H9e-8Q-ygc"; */
+"H9e-8Q-ygc.text" = "输入下载地址：";
+
+/* Class = "IBUIViewController"; title = "录音 播放"; ObjectID = "HrP-8T-nX7"; */
+"HrP-8T-nX7.title" = "录音 播放";
+
+/* Class = "IBUIImageView"; accessibilityLabel = "dddd"; ObjectID = "IdL-TX-Hga"; */
+"IdL-TX-Hga.accessibilityLabel" = "dddd";
+
+/* Class = "IBUIButton"; normalTitle = "UIKit &CoreGraphics(Quartz)绘图功能"; ObjectID = "IiO-Ew-Ooh"; */
+"IiO-Ew-Ooh.normalTitle" = "UIKit &CoreGraphics(Quartz)绘图功能";
+
+/* Class = "IBUILabel"; text = "paizhao2"; ObjectID = "L5A-dy-1iX"; */
+"L5A-dy-1iX.text" = "paizhao2";
+
+/* Class = "IBUILabel"; text = "正在下载..."; ObjectID = "LpS-qh-ggf"; */
+"LpS-qh-ggf.text" = "正在下载...";
+
+/* Class = "IBUILabel"; text = "键盘隐藏，键盘自定义return按钮图标"; ObjectID = "MdM-Su-gtW"; */
+"MdM-Su-gtW.text" = "键盘隐藏，键盘自定义return按钮图标";
+
+/* Class = "IBUILabel"; text = "下载完成"; ObjectID = "NOh-uc-4W0"; */
+"NOh-uc-4W0.text" = "下载完成";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "NPh-04-dhW"; */
+"NPh-04-dhW.title" = "Item";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "NiM-ID-4kU"; */
+"NiM-ID-4kU.title" = "Item";
+
+/* Class = "IBUILabel"; text = "输入一些文字:"; ObjectID = "Oew-k2-2id"; */
+"Oew-k2-2id.text" = "输入一些文字:";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "P79-bZ-Wiz"; */
+"P79-bZ-Wiz.normalTitle" = "Button";
+
+/* Class = "IBUIViewController"; title = "手势横扫事件"; ObjectID = "R89-eg-2H3"; */
+"R89-eg-2H3.title" = "手势横扫事件";
+
+/* Class = "IBUIButton"; normalTitle = "跳转到tableView"; ObjectID = "RAf-2A-hvr"; */
+"RAf-2A-hvr.normalTitle" = "跳转到tableView";
+
+/* Class = "IBUILabel"; text = "Url"; ObjectID = "SQU-jL-Zvg"; */
+"SQU-jL-Zvg.text" = "Url";
+
+/* Class = "IBUILabel"; text = "Brad Cox"; ObjectID = "SmQ-xB-oNq"; */
+"SmQ-xB-oNq.text" = "Brad Cox";
+
+/* Class = "IBUILabel"; text = "下载完成"; ObjectID = "Vul-NQ-tjv"; */
+"Vul-NQ-tjv.text" = "下载完成";
+
+/* Class = "IBUIButton"; normalTitle = "colse"; ObjectID = "X70-ZA-rTU"; */
+"X70-ZA-rTU.normalTitle" = "colse";
+
+/* Class = "IBUINavigationItem"; title = "Root View Controller"; ObjectID = "XTS-f4-QAk"; */
+"XTS-f4-QAk.title" = "Root View Controller";
+
+/* Class = "IBUIButton"; normalTitle = "动画演示"; ObjectID = "ZJo-g9-0oP"; */
+"ZJo-g9-0oP.normalTitle" = "动画演示";
+
+/* Class = "IBUILabel"; text = "Ray"; ObjectID = "Zbw-I3-IeB"; */
+"Zbw-I3-IeB.text" = "Ray";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "aTn-iN-CUZ"; */
+"aTn-iN-CUZ.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "PresentModalViewController"; ObjectID = "aUo-7X-tk6"; */
+"aUo-7X-tk6.normalTitle" = "PresentModalViewController";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "bif-44-GCt"; */
+"bif-44-GCt.normalTitle" = "Button";
+
+/* Class = "IBUINavigationController"; title = "第一个导航控制器"; ObjectID = "boO-ie-C8P"; */
+"boO-ie-C8P.title" = "第一个导航控制器";
+
+/* Class = "IBUINavigationController"; title = "第二个TabBar导航控制器"; ObjectID = "e6J-ZI-kJi"; */
+"e6J-ZI-kJi.title" = "第二个TabBar导航控制器";
+
+/* Class = "IBUILabel"; text = "菜名"; ObjectID = "ehp-6J-IG5"; */
+"ehp-6J-IG5.text" = "菜名";
+
+/* Class = "IBUIButton"; normalTitle = "+1"; ObjectID = "fe2-Tm-Acj"; */
+"fe2-Tm-Acj.normalTitle" = "+1";
+
+/* Class = "IBUITextField"; placeholder = "\b四位数密码"; ObjectID = "g2S-BL-a8H"; */
+"g2S-BL-a8H.placeholder" = "\b四位数密码";
+
+/* Class = "IBUIButton"; normalTitle = "显示密码"; ObjectID = "iH4-Me-mmR"; */
+"iH4-Me-mmR.normalTitle" = "显示密码";
+
+/* Class = "IBUIButton"; selectedTitle = "显示密码"; ObjectID = "iH4-Me-mmR"; */
+"iH4-Me-mmR.selectedTitle" = "显示密码";
+
+/* Class = "IBUILabel"; text = "Matthijs"; ObjectID = "kD6-46-5iX"; */
+"kD6-46-5iX.text" = "Matthijs";
+
+/* Class = "IBUIBarButtonItem"; title = "确定"; ObjectID = "kE0-RJ-f29"; */
+"kE0-RJ-f29.title" = "确定";
+
+/* Class = "IBUIViewController"; title = "重写键盘"; ObjectID = "kns-gp-Cya"; */
+"kns-gp-Cya.title" = "重写键盘";
+
+/* Class = "IBUIViewController"; title = "系统相册"; ObjectID = "lf1-lS-Fwr"; */
+"lf1-lS-Fwr.title" = "系统相册";
+
+/* Class = "IBUIButton"; normalTitle = "录音"; ObjectID = "ph2-Hm-OLY"; */
+"ph2-Hm-OLY.normalTitle" = "录音";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "q17-9V-qIn"; */
+"q17-9V-qIn.text" = "Label";
+
+/* Class = "IBUILabel"; text = "this is view 1"; ObjectID = "qWp-pf-r7u"; */
+"qWp-pf-r7u.text" = "this is view 1";
+
+/* Class = "IBUIButton"; normalTitle = "-1"; ObjectID = "rwT-mn-ETh"; */
+"rwT-mn-ETh.normalTitle" = "-1";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "uRU-EG-ijs"; */
+"uRU-EG-ijs.normalTitle" = "Button";
+
+/* Class = "IBUIViewController"; title = "首界面"; ObjectID = "vXZ-lx-hvc"; */
+"vXZ-lx-hvc.title" = "首界面";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Section-1"; ObjectID = "w4D-5H-RRW"; */
+"w4D-5H-RRW.headerTitle" = "Section-1";
+
+/* Class = "IBUILabel"; text = "滑动方向"; ObjectID = "xIX-mZ-GgT"; */
+"xIX-mZ-GgT.text" = "滑动方向";
+
+/* Class = "IBUILabel"; text = "Url"; ObjectID = "z7F-MM-4hZ"; */
+"z7F-MM-4hZ.text" = "Url";
