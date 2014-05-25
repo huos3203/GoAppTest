@@ -5,47 +5,48 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>CD25C512-E304-4D83-9A43-42C8EEDA7A9F</string>
+	<string>8468E190-E8E8-4F17-A401-BB91CE2FFF2D</string>
 	<key>IDESourceControlProjectName</key>
 	<string>GoAppTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>66F73AD0-9190-4DFD-9A4B-61375BDDCBFA</key>
-		<string>svn://localhost/local/trunk/IOS/GoAppTest</string>
+		<key>1EC422A5-0735-4203-97EE-0FEDF8BA6846</key>
+		<string>https://github.com/huos3203/GoAppTest.git</string>
+		<key>C74A7465-7926-4E08-B269-65BBE6B97F48</key>
+		<string>https://github.com/sqlcipher/sqlcipher.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>GoAppTest.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>66F73AD0-9190-4DFD-9A4B-61375BDDCBFA</key>
+		<key>1EC422A5-0735-4203-97EE-0FEDF8BA6846</key>
 		<string>../..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>66F73AD0-9190-4DFD-9A4B-61375BDDCBFA</key>
-		<string>svn://localhost/local</string>
+		<key>C74A7465-7926-4E08-B269-65BBE6B97F48</key>
+		<string>../../../../../../../GitRepos/Repos/SQLCipherApp</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>svn://localhost/local/trunk/IOS/GoAppTest/GoAppTest.xcodeproj</string>
+	<string>https://github.com/huos3203/GoAppTest.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>66F73AD0-9190-4DFD-9A4B-61375BDDCBFA</string>
+	<string>1EC422A5-0735-4203-97EE-0FEDF8BA6846</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
-			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
-			<string>branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
-			<string>tags</string>
-			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
-			<string>trunk</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>66F73AD0-9190-4DFD-9A4B-61375BDDCBFA</string>
+			<string>1EC422A5-0735-4203-97EE-0FEDF8BA6846</string>
 			<key>IDESourceControlWCCName</key>
 			<string>GoAppTest</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C74A7465-7926-4E08-B269-65BBE6B97F48</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SQLCipherApp</string>
 		</dict>
 	</array>
 </dict>
