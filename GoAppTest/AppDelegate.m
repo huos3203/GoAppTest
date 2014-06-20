@@ -15,7 +15,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
+    /*
+     在iOS 7中，不再使用tintColor属性来设置导航栏的颜色，而是使用barTintColor属性来修改背景色。
+     即：
+      1. [[UINavigationBar appearance] setBarTintColor:[UIColor yellowColor]];
+        
+      2. 将上面这个宏放到AppDelegate.m文件中，然后通过这个宏来创建一个UIColor对象(根据指定的RGB)。
+     
+      3.在导航栏中使用背景图片，需要提供一个稍微高一点的图片(这样可以延伸到导航栏背后)。
+            导航栏的高度从44 points(88 pixels)变为了64 points(128 pixels)。
+        [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"nav_bg.png"] forBarMetrics:UIBarMetricsDefault];
+
+     */
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x067AB5)];
 //    [Crashlytics startWithAPIKey:@"4dde99d6e086d2458bb2353eac6b0729d4cde080"];
     // Override point for customization after application launch.
 //    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];

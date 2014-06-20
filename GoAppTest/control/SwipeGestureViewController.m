@@ -66,4 +66,10 @@
 
     
 }
+- (IBAction)ibaImageTapGuest:(UITapGestureRecognizer*)sender
+{
+    
+    NSLog(@"点击事件:……%d",sender.numberOfTapsRequired);
+}
+
 @end

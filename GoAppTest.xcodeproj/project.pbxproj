@@ -185,6 +185,7 @@
 		8479EDFB192DF02900F23223 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479EDFA192DF02900F23223 /* MyCell.m */; };
 		847D21F2191BDD770069BF1C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21E2191BDBE10069BF1C /* libcrypto.a */; };
 		847D21F3191BDD770069BF1C /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21ED191BDD3C0069BF1C /* libsqlcipher.a */; };
+		8480B24D1953DEB900B38F22 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480B24C1953DEB900B38F22 /* HelloWorld.swift */; };
 		849202F319238EC200A45357 /* app_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 849202EB19238EC200A45357 /* app_bg.png */; };
 		849202F419238EC200A45357 /* btn_done_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849202EC19238EC200A45357 /* btn_done_down@2x.png */; };
 		849202F519238EC200A45357 /* btn_done_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 849202ED19238EC200A45357 /* btn_done_up@2x.png */; };
@@ -196,6 +197,10 @@
 		849202FD1923A4F400A45357 /* FontTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849202FC1923A4F400A45357 /* FontTableViewController.m */; };
 		849203001924A52D00A45357 /* ToolsGHTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 849202FF1924A52D00A45357 /* ToolsGHTestCase.m */; };
 		849F056C192C891E001BDD24 /* TopsTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CEC78219092E510006DE7F /* TopsTools.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84B7A215193957B30036ED79 /* SvGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B7A214193957B30036ED79 /* SvGifView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84B7A21B193959FB0036ED79 /* jiafei.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84B7A21A193959FB0036ED79 /* jiafei.gif */; };
+		84B7A21F193960CE0036ED79 /* SvGifViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B7A21E193960CE0036ED79 /* SvGifViewViewController.m */; };
+		84B7A221193960ED0036ED79 /* SvGifViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B7A220193960ED0036ED79 /* SvGifViewXib.xib */; };
 		84C323031925F8A40031444F /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C323021925F8A40031444F /* AnimationViewController.m */; };
 		84C6F3931906419200CCC62C /* DinerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F3921906419200CCC62C /* DinerViewController.m */; };
 		84C6F39719064A0400CCC62C /* DinerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F39619064A0400CCC62C /* DinerItem.m */; };
@@ -520,6 +525,8 @@
 		8479EDFA192DF02900F23223 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		847D21DA191BDBE10069BF1C /* openssl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openssl.xcodeproj; path = ../../../../../GitRepos/Repos/SQLCipherApp/openssl.xcodeproj; sourceTree = "<group>"; };
 		847D21E7191BDD3B0069BF1C /* sqlcipher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlcipher.xcodeproj; path = ../../../../../GitRepos/Repos/SQLCipherApp/sqlcipher.xcodeproj; sourceTree = "<group>"; };
+		8480B24B1953DEB900B38F22 /* GoAppTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoAppTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		8480B24C1953DEB900B38F22 /* HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 		849202EB19238EC200A45357 /* app_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_bg.png; sourceTree = "<group>"; };
 		849202EC19238EC200A45357 /* btn_done_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_done_down@2x.png"; sourceTree = "<group>"; };
 		849202ED19238EC200A45357 /* btn_done_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_done_up@2x.png"; sourceTree = "<group>"; };
@@ -531,6 +538,12 @@
 		849202FB1923A4F400A45357 /* FontTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontTableViewController.h; sourceTree = "<group>"; };
 		849202FC1923A4F400A45357 /* FontTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontTableViewController.m; sourceTree = "<group>"; };
 		849202FF1924A52D00A45357 /* ToolsGHTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolsGHTestCase.m; sourceTree = "<group>"; };
+		84B7A213193957B30036ED79 /* SvGifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvGifView.h; sourceTree = "<group>"; };
+		84B7A214193957B30036ED79 /* SvGifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvGifView.m; sourceTree = "<group>"; };
+		84B7A21A193959FB0036ED79 /* jiafei.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jiafei.gif; sourceTree = "<group>"; };
+		84B7A21D193960CE0036ED79 /* SvGifViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvGifViewViewController.h; sourceTree = "<group>"; };
+		84B7A21E193960CE0036ED79 /* SvGifViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvGifViewViewController.m; sourceTree = "<group>"; };
+		84B7A220193960ED0036ED79 /* SvGifViewXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SvGifViewXib.xib; sourceTree = "<group>"; };
 		84C323011925F8A40031444F /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
 		84C323021925F8A40031444F /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		84C6F3911906419200CCC62C /* DinerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DinerViewController.h; sourceTree = "<group>"; };
@@ -632,6 +645,7 @@
 		140D0E1E18A9D749006BE149 /* GoAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				8480B2491953DE2D00B38F22 /* Swift */,
 				841DF0A31905749B00C72F15 /* MyView */,
 				1498158318B3096F00F3ED9C /* sqlite */,
 				1498157118B308B800F3ED9C /* control */,
@@ -643,6 +657,7 @@
 				140D0E3018A9D749006BE149 /* Images.xcassets */,
 				140D0E1F18A9D749006BE149 /* Supporting Files */,
 				841DF0A719061B5500C72F15 /* Resources */,
+				8480B24B1953DEB900B38F22 /* GoAppTest-Bridging-Header.h */,
 			);
 			path = GoAppTest;
 			sourceTree = "<group>";
@@ -670,6 +685,7 @@
 		1498157118B308B800F3ED9C /* control */ = {
 			isa = PBXGroup;
 			children = (
+				84B7A21C193960CE0036ED79 /* SvGifVc */,
 				8478BAA71930BA2C00E6091A /* afDownloader */,
 				8478BA801930777A00E6091A /* VcToVc */,
 				8479EDEF192D990000F23223 /* autoLayout */,
@@ -851,6 +867,7 @@
 		841DF0A31905749B00C72F15 /* MyView */ = {
 			isa = PBXGroup;
 			children = (
+				84B7A212193957B30036ED79 /* SvGifView */,
 				84222F301908A3CE0020BC22 /* tabBar */,
 				841DF0A4190574C300C72F15 /* KKProgressToolbar.h */,
 				841DF0A5190574C300C72F15 /* KKProgressToolbar.m */,
@@ -870,6 +887,7 @@
 		841DF0A819061B5500C72F15 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				84B7A21A193959FB0036ED79 /* jiafei.gif */,
 				8478BA7819305BE800E6091A /* Brad Cox.png */,
 				8478BA7919305BE800E6091A /* Dennis Ritchie.png */,
 				8478BA7A19305BE800E6091A /* Matthijs.png */,
@@ -1177,6 +1195,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8480B2491953DE2D00B38F22 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				8480B24C1953DEB900B38F22 /* HelloWorld.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		84B7A212193957B30036ED79 /* SvGifView */ = {
+			isa = PBXGroup;
+			children = (
+				84B7A213193957B30036ED79 /* SvGifView.h */,
+				84B7A214193957B30036ED79 /* SvGifView.m */,
+			);
+			path = SvGifView;
+			sourceTree = "<group>";
+		};
+		84B7A21C193960CE0036ED79 /* SvGifVc */ = {
+			isa = PBXGroup;
+			children = (
+				84B7A21D193960CE0036ED79 /* SvGifViewViewController.h */,
+				84B7A21E193960CE0036ED79 /* SvGifViewViewController.m */,
+				84B7A220193960ED0036ED79 /* SvGifViewXib.xib */,
+			);
+			path = SvGifVc;
+			sourceTree = "<group>";
+		};
 		84C322FF1925F87F0031444F /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -1385,6 +1430,7 @@
 				14C768DA18EC243900EFE486 /* CHANGELOG.md in Resources */,
 				84CEC79019093AA70006DE7F /* new_feature_2@2x.png in Resources */,
 				841DF0DA19061B5500C72F15 /* button_arrow_left@2x.png in Resources */,
+				84B7A221193960ED0036ED79 /* SvGifViewXib.xib in Resources */,
 				841DF0F519061B5500C72F15 /* sign_blank.png in Resources */,
 				841DF0DD19061B5500C72F15 /* button_silver_stretch.png in Resources */,
 				84CEC79219093AA70006DE7F /* new_feature_3@2x.png in Resources */,
@@ -1407,6 +1453,7 @@
 				841DF0D619061B5500C72F15 /* bg_wall@2x.png in Resources */,
 				841DF0D919061B5500C72F15 /* button_arrow_left.png in Resources */,
 				84CEC78F19093AA70006DE7F /* new_feature_2-568h@2x.png in Resources */,
+				84B7A21B193959FB0036ED79 /* jiafei.gif in Resources */,
 				841DF0EE19061B5500C72F15 /* food_pizza@2x.png in Resources */,
 				8478BA7C19305BE800E6091A /* Brad Cox.png in Resources */,
 				841DF0E619061B5500C72F15 /* food_fries@2x.png in Resources */,
@@ -1469,6 +1516,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B7A215193957B30036ED79 /* SvGifView.m in Sources */,
 				1498158018B308B800F3ED9C /* ViewController.m in Sources */,
 				84C6F39719064A0400CCC62C /* DinerItem.m in Sources */,
 				149D26ED18ACA3D9005A59E0 /* CustomIOS7AlertView.m in Sources */,
@@ -1485,6 +1533,7 @@
 				84C6F39A19064A3800CCC62C /* DinerOrder.m in Sources */,
 				1498158C18B3128E00F3ED9C /* UserModel.m in Sources */,
 				1498157D18B308B800F3ED9C /* LoginViewController.m in Sources */,
+				84B7A21F193960CE0036ED79 /* SvGifViewViewController.m in Sources */,
 				8478BA9F1930B85600E6091A /* AFHTTPSessionManager.m in Sources */,
 				8478BAA01930B85600E6091A /* AFNetworkReachabilityManager.m in Sources */,
 				8408627219263C7E000965BF /* Switch3DTransition.m in Sources */,
@@ -1538,6 +1587,7 @@
 				8478BAA21930B85600E6091A /* AFURLConnectionOperation.m in Sources */,
 				1499FFC318B1E90A007A894B /* LKDaoBase.m in Sources */,
 				8478BA831930A2F400E6091A /* FirstViewController.m in Sources */,
+				8480B24D1953DEB900B38F22 /* HelloWorld.swift in Sources */,
 				8478BAA31930B85600E6091A /* AFURLRequestSerialization.m in Sources */,
 				146C271A18E01F930052D141 /* SecretModel.m in Sources */,
 				1499FFC718B1E995007A894B /* SandboxFile.m in Sources */,
@@ -1738,6 +1788,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: shuguang IOS (9M24P5TX67)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: shuguang IOS (9M24P5TX67)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1751,10 +1802,13 @@
 					sqlcipher,
 				);
 				INFOPLIST_FILE = "GoAppTest/GoAppTest-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = /Users/admin/Downloads/SVNRepos/local/trunk/IOS/GoAppTest/GoAppTest/tool/lame;
 				OTHER_CODE_SIGN_FLAGS = "-DSQLITE_HAS_CODEC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4CAEBAE3-4834-4A11-9879-3991319C65E4";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoAppTest/GoAppTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1766,6 +1820,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: shuguang IOS (9M24P5TX67)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: shuguang IOS (9M24P5TX67)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1779,10 +1834,12 @@
 					sqlcipher,
 				);
 				INFOPLIST_FILE = "GoAppTest/GoAppTest-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = /Users/admin/Downloads/SVNRepos/local/trunk/IOS/GoAppTest/GoAppTest/tool/lame;
 				OTHER_CODE_SIGN_FLAGS = "-DSQLITE_HAS_CODEC -DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "4CAEBAE3-4834-4A11-9879-3991319C65E4";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoAppTest/GoAppTest-Bridging-Header.h";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};

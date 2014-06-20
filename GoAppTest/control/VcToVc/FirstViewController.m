@@ -14,7 +14,9 @@
 @end
 
 @implementation FirstViewController
-
+{
+    NSTextContainer * _textContainer;
+}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -28,6 +30,46 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    //text kit
+    NSTextStorage *textStorage = [[NSTextStorage alloc] initWithString:_ibTextKit.text];
+    NSLayoutManager* layoutManager = [[NSLayoutManager alloc] init];
+    
+    [textStorage addLayoutManager:layoutManager];
+    _textContainer = [[NSTextContainer alloc] initWithSize:_ibTextKit.frame.size];
+    [layoutManager addTextContainer:_textContainer];
+    
+    [_ibTextKit removeFromSuperview];
+    _ibTextKit = [[UILabel alloc] initWithFrame:_ibTextKit.frame];
+    
+    [self.view addSubview:_ibTextKit];
+  
+    //设置凸版印刷效果
+    [textStorage beginEditing];
+    
+    NSDictionary *attrsDic = @{NSTextEffectAttributeName: NSTextEffectLetterpressStyle};
+    
+    NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithString:
+                                          _ibTextKit.text attributes:attrsDic];
+    
+    [textStorage setAttributedString:attrStr];
+    
+//    [self markWord:@"我" inTextStorage:textStorage];
+//    [self markWord:@"I" inTextStorage:textStorage];
+    
+    [textStorage endEditing];
+    
+    
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(preferredContentSizeChanged:)
+                                                 name:UIContentSizeCategoryDidChangeNotification
+                                               object:nil];
+}
+
+- (void)preferredContentSizeChanged:(NSNotification *)notification
+{
+    self.ibTextKit.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
 }
 
 - (void)didReceiveMemoryWarning

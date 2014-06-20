@@ -14,4 +14,5 @@
 //回到主ViewController的Unwind Segue
 -(IBAction)backToMain:(UIStoryboardSegue*)segue;
 
+@property (strong, nonatomic) IBOutlet UILabel *ibTextKit;
 @end

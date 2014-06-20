@@ -13,4 +13,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *swipeGesture;
 - (IBAction)swipeGuesture:(UISwipeGestureRecognizer *)sender;
 @property (weak, nonatomic) IBOutlet UISwipeGestureRecognizer *swipGest;
+- (IBAction)ibaImageTapGuest:(UITapGestureRecognizer*)sender;
 @end

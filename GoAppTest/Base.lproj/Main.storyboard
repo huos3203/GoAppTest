@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="XPJ-Bj-493">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="RjZ-EV-pJn">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -220,6 +220,20 @@
                                     <outletCollection property="gestureRecognizers" destination="U8S-Bf-efX" appends="YES" id="2qg-Q2-QZj"/>
                                 </connections>
                             </view>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brad Cox.png" translatesAutoresizingMaskIntoConstraints="NO" id="DO2-Ec-Uzd">
+                                <rect key="frame" x="33" y="358" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gEE-LO-Myc" appends="YES" id="ToK-6i-ryn"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="手势实现点击事件" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTK-tB-cJU">
+                                <rect key="frame" x="33" y="465" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -235,6 +249,12 @@
                         <action selector="swipeGuesture:" destination="R89-eg-2H3" id="74Y-fX-efl"/>
                     </connections>
                 </swipeGestureRecognizer>
+                <tapGestureRecognizer id="gEE-LO-Myc">
+                    <connections>
+                        <action selector="ibaImageTapGuest:" destination="R89-eg-2H3" id="GYa-VI-LbM"/>
+                        <outlet property="delegate" destination="R89-eg-2H3" id="uP6-Ri-i0p"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2171" y="-169"/>
         </scene>
@@ -1004,6 +1024,42 @@
             </objects>
             <point key="canvasLocation" x="706" y="5760"/>
         </scene>
+        <!--Gif动画案例-->
+        <scene sceneID="mg6-T9-3cV">
+            <objects>
+                <viewController id="RjZ-EV-pJn" userLabel="Gif动画案例" customClass="SvGifViewViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Pb-hS-fs6"/>
+                        <viewControllerLayoutGuide type="bottom" id="PEO-Ld-bL4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TyS-ap-xLn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wHv-rv-hWH" customClass="SvGifView">
+                                <rect key="frame" x="25" y="207" width="270" height="155"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="cZu-uK-GHN"/>
+                                    <constraint firstAttribute="height" constant="155" id="w4E-8g-1LH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="wHv-rv-hWH" secondAttribute="centerY" id="Lqe-aX-zWQ"/>
+                            <constraint firstAttribute="centerX" secondItem="wHv-rv-hWH" secondAttribute="centerX" id="cbV-BQ-VBp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ibGifView" destination="wHv-rv-hWH" id="SI1-cn-nGt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYP-q8-Bxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="6592"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="BbM-pC-CZe">
             <objects>
@@ -1019,10 +1075,10 @@
             </objects>
             <point key="canvasLocation" x="307" y="5760"/>
         </scene>
-        <!--VcToVc PresentedViewControl-->
+        <!--Segue取代presentModalVC-->
         <scene sceneID="o3Z-nP-BtY">
             <objects>
-                <viewController id="nIh-3h-Ph8" userLabel="VcToVc PresentedViewControl" customClass="PresentedViewController" sceneMemberID="viewController">
+                <viewController id="nIh-3h-Ph8" userLabel="Segue取代presentModalVC" customClass="PresentedViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="slZ-6G-Avn"/>
                         <viewControllerLayoutGuide type="bottom" id="1rA-Wn-xfU"/>
@@ -1162,10 +1218,10 @@
             </objects>
             <point key="canvasLocation" x="114" y="3911"/>
         </scene>
-        <!--Unwind Segue例子-->
+        <!--Segue取代presentModalVC-->
         <scene sceneID="PUM-z5-nSr">
             <objects>
-                <viewController id="9cV-o5-WZC" userLabel="Unwind Segue例子" customClass="FirstViewController" sceneMemberID="viewController">
+                <viewController id="9cV-o5-WZC" userLabel="Segue取代presentModalVC" customClass="FirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jRK-FF-1TO"/>
                         <viewControllerLayoutGuide type="bottom" id="ZPv-vW-FEr"/>
@@ -1175,26 +1231,41 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRU-EG-ijs">
-                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <rect key="frame" x="65" y="430" width="191" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="presentModal 到 Navigation">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EgE-lH-tC5" kind="modal" identifier="" id="83K-7h-Vpu"/>
+                                    <segue destination="EgE-lH-tC5" kind="push" identifier="" id="83K-7h-Vpu"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="323" translatesAutoresizingMaskIntoConstraints="NO" id="ffp-jK-p1V">
+                                <rect key="frame" x="5" y="61" width="323" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Storyboard引入了2个概念：
+scene：一个场景，由一个viewController和相关的xib表示。
+segue：在这是用于连接scenes，其有类型(Push，Modal，Popover and more。segue也负责传递数据和返回数据。
+整个程序的界面转换就是在各个scene之间切换。
+界面跳转关系，比如按哪个键跳到哪个界面，是由segue来描述。segue也可以带数据，以便做数据传递。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="uRU-EG-ijs" secondAttribute="centerY" id="FoM-f4-GtT"/>
+                            <constraint firstAttribute="centerY" secondItem="uRU-EG-ijs" secondAttribute="centerY" constant="-161" id="FoM-f4-GtT"/>
                             <constraint firstAttribute="centerX" secondItem="uRU-EG-ijs" secondAttribute="centerX" id="uhd-Do-h1j"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ibTextKit" destination="ffp-jK-p1V" id="apg-MV-OsT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3S-qP-DGZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="356" y="4905"/>
+            <point key="canvasLocation" x="454" y="4905"/>
         </scene>
         <!--Login 登录界面-->
         <scene sceneID="aAt-ja-MfV">
@@ -1503,6 +1574,23 @@ COWbm+S9jeaVsOWvhueggQ
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yC9-w5-Rgc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6po-O0-QUX">
+            <objects>
+                <viewController id="CIv-rt-hEP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ncx-iy-hXy"/>
+                        <viewControllerLayoutGuide type="bottom" id="UqE-93-Abg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iHd-gz-vqt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iwz-Gy-9o6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
