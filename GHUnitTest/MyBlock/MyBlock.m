@@ -22,7 +22,7 @@
             NSLog(@"myBlockTest:Num %d",num);
             return num;
         };
-    UIDevice
-    int ret = myblock(3);
+//    UIDevice
+//    int ret = myblock(3);
 }
 @end
