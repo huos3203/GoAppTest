@@ -367,6 +367,9 @@
 		8408628619279A5A000965BF /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
 		8408628719279A5A000965BF /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
 		8413F7EA18DDB48E004B569D /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		841B798A195513AA00C19C2A /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		841B798C19552BBC00C19C2A /* func.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = func.playground; sourceTree = "<group>"; };
+		841B798D195532A700C19C2A /* class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = class.playground; sourceTree = "<group>"; };
 		841DF0A4190574C300C72F15 /* KKProgressToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKProgressToolbar.h; sourceTree = "<group>"; };
 		841DF0A5190574C300C72F15 /* KKProgressToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKProgressToolbar.m; sourceTree = "<group>"; };
 		841DF0A919061B5500C72F15 /* bg_counter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_counter.png; sourceTree = "<group>"; };
@@ -523,6 +526,8 @@
 		8479EDF1192D997200F23223 /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
 		8479EDF9192DF02900F23223 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		8479EDFA192DF02900F23223 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		847B94D619554CEF00482BFD /* protocolAndExtension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = protocolAndExtension.playground; sourceTree = "<group>"; };
+		847B94D819554F7A00482BFD /* structAndEnum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = structAndEnum.playground; sourceTree = "<group>"; };
 		847D21DA191BDBE10069BF1C /* openssl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openssl.xcodeproj; path = ../../../../../GitRepos/Repos/SQLCipherApp/openssl.xcodeproj; sourceTree = "<group>"; };
 		847D21E7191BDD3B0069BF1C /* sqlcipher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = sqlcipher.xcodeproj; path = ../../../../../GitRepos/Repos/SQLCipherApp/sqlcipher.xcodeproj; sourceTree = "<group>"; };
 		8480B24B1953DEB900B38F22 /* GoAppTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoAppTest-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -1199,6 +1204,11 @@
 			isa = PBXGroup;
 			children = (
 				8480B24C1953DEB900B38F22 /* HelloWorld.swift */,
+				841B798A195513AA00C19C2A /* MyPlayground.playground */,
+				841B798C19552BBC00C19C2A /* func.playground */,
+				841B798D195532A700C19C2A /* class.playground */,
+				847B94D819554F7A00482BFD /* structAndEnum.playground */,
+				847B94D619554CEF00482BFD /* protocolAndExtension.playground */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
