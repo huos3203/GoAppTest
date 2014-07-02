@@ -154,14 +154,9 @@
 		8437C5C5192E2DE600DB651B /* DownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437C5C4192E2DE600DB651B /* DownLoadViewController.m */; };
 		844070541928E602001BD6F4 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844070531928E602001BD6F4 /* TouchViewController.m */; };
 		8460385219581B1200DF2F6A /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21E2191BDBE10069BF1C /* libcrypto.a */; };
-		8460385C19581C2D00DF2F6A /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460385619581C2D00DF2F6A /* PTChannel.m */; };
-		8460385D19581C2D00DF2F6A /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460385619581C2D00DF2F6A /* PTChannel.m */; };
-		8460385E19581C2D00DF2F6A /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460385919581C2D00DF2F6A /* PTProtocol.m */; };
-		8460385F19581C2D00DF2F6A /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460385919581C2D00DF2F6A /* PTProtocol.m */; };
-		8460386019581C2D00DF2F6A /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460385B19581C2D00DF2F6A /* PTUSBHub.m */; };
-		8460386119581C2D00DF2F6A /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460385B19581C2D00DF2F6A /* PTUSBHub.m */; };
 		8460386519581D2A00DF2F6A /* MyUSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460386419581D2A00DF2F6A /* MyUSB.m */; };
 		8460386819581FEB00DF2F6A /* MyUsbTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8460386719581FEB00DF2F6A /* MyUsbTest.m */; };
+		8460386D1959416700DF2F6A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8460386C1959416700DF2F6A /* ExternalAccessory.framework */; };
 		8473C055191BDF990008572B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21E2191BDBE10069BF1C /* libcrypto.a */; };
 		8473C056191BDF990008572B /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 847D21ED191BDD3C0069BF1C /* libsqlcipher.a */; };
 		8473C05A191BE0840008572B /* SqliteHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473C059191BE0840008572B /* SqliteHelp.m */; };
@@ -213,6 +208,12 @@
 		84C6F3931906419200CCC62C /* DinerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F3921906419200CCC62C /* DinerViewController.m */; };
 		84C6F39719064A0400CCC62C /* DinerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F39619064A0400CCC62C /* DinerItem.m */; };
 		84C6F39A19064A3800CCC62C /* DinerOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F39919064A3800CCC62C /* DinerOrder.m */; };
+		84CBFDEB1963CF75000A9F4A /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBFDE51963CF75000A9F4A /* PTChannel.m */; };
+		84CBFDEC1963CF75000A9F4A /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBFDE51963CF75000A9F4A /* PTChannel.m */; };
+		84CBFDED1963CF75000A9F4A /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBFDE81963CF75000A9F4A /* PTProtocol.m */; };
+		84CBFDEE1963CF75000A9F4A /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBFDE81963CF75000A9F4A /* PTProtocol.m */; };
+		84CBFDEF1963CF75000A9F4A /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBFDEA1963CF75000A9F4A /* PTUSBHub.m */; };
+		84CBFDF01963CF75000A9F4A /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBFDEA1963CF75000A9F4A /* PTUSBHub.m */; };
 		84CC6D071924C53000787F2F /* PYCCParser in Sources */ = {isa = PBXBuildFile; fileRef = 84CC6D061924C53000787F2F /* PYCCParser */; };
 		84CC6D091924C72D00787F2F /* PYCCParser in Sources */ = {isa = PBXBuildFile; fileRef = 84CC6D061924C53000787F2F /* PYCCParser */; };
 		84CC6D0D1925B7DA00787F2F /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC6D0C1925B7DA00787F2F /* OpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -479,18 +480,10 @@
 		8437C5C4192E2DE600DB651B /* DownLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadViewController.m; sourceTree = "<group>"; };
 		844070521928E602001BD6F4 /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
 		844070531928E602001BD6F4 /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
-		8460385419581C2D00DF2F6A /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
-		8460385519581C2D00DF2F6A /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTChannel.h; sourceTree = "<group>"; };
-		8460385619581C2D00DF2F6A /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
-		8460385719581C2D00DF2F6A /* PTPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPrivate.h; sourceTree = "<group>"; };
-		8460385819581C2D00DF2F6A /* PTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTProtocol.h; sourceTree = "<group>"; };
-		8460385919581C2D00DF2F6A /* PTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTProtocol.m; sourceTree = "<group>"; };
-		8460385A19581C2D00DF2F6A /* PTUSBHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTUSBHub.h; sourceTree = "<group>"; };
-		8460385B19581C2D00DF2F6A /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUSBHub.m; sourceTree = "<group>"; };
 		8460386319581D2A00DF2F6A /* MyUSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUSB.h; sourceTree = "<group>"; };
 		8460386419581D2A00DF2F6A /* MyUSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUSB.m; sourceTree = "<group>"; };
 		8460386719581FEB00DF2F6A /* MyUsbTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUsbTest.m; sourceTree = "<group>"; };
-		846038691958222200DF2F6A /* PTExampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTExampleProtocol.h; sourceTree = "<group>"; };
+		8460386C1959416700DF2F6A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		8473C058191BE0840008572B /* SqliteHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteHelp.h; sourceTree = "<group>"; };
 		8473C059191BE0840008572B /* SqliteHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteHelp.m; sourceTree = "<group>"; };
 		8473C05B191BEC1B0008572B /* SqliteHelpDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteHelpDao.h; sourceTree = "<group>"; };
@@ -577,6 +570,14 @@
 		84C6F39619064A0400CCC62C /* DinerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DinerItem.m; sourceTree = "<group>"; };
 		84C6F39819064A3800CCC62C /* DinerOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DinerOrder.h; sourceTree = "<group>"; };
 		84C6F39919064A3800CCC62C /* DinerOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DinerOrder.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84CBFDE31963CF75000A9F4A /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		84CBFDE41963CF75000A9F4A /* PTChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTChannel.h; sourceTree = "<group>"; };
+		84CBFDE51963CF75000A9F4A /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
+		84CBFDE61963CF75000A9F4A /* PTPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTPrivate.h; sourceTree = "<group>"; };
+		84CBFDE71963CF75000A9F4A /* PTProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTProtocol.h; sourceTree = "<group>"; };
+		84CBFDE81963CF75000A9F4A /* PTProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTProtocol.m; sourceTree = "<group>"; };
+		84CBFDE91963CF75000A9F4A /* PTUSBHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTUSBHub.h; sourceTree = "<group>"; };
+		84CBFDEA1963CF75000A9F4A /* PTUSBHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTUSBHub.m; sourceTree = "<group>"; };
 		84CC6D061924C53000787F2F /* PYCCParser */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PYCCParser; path = ../../GoAppTest/tool/PYCCParser; sourceTree = "<group>"; };
 		84CC6D0B1925B7DA00787F2F /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
 		84CC6D0C1925B7DA00787F2F /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
@@ -619,6 +620,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8460386D1959416700DF2F6A /* ExternalAccessory.framework in Frameworks */,
 				8473C055191BDF990008572B /* libcrypto.a in Frameworks */,
 				8473C056191BDF990008572B /* libsqlcipher.a in Frameworks */,
 				146C272318E0260D0052D141 /* libsqlite3.0.dylib in Frameworks */,
@@ -656,6 +658,7 @@
 		140D0E1718A9D749006BE149 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8460386C1959416700DF2F6A /* ExternalAccessory.framework */,
 				8413F7EA18DDB48E004B569D /* Crashlytics.framework */,
 				1495485A18B47B9E002DEE73 /* libsqlite3.0.dylib */,
 				1495485018B459A8002DEE73 /* AVFoundation.framework */,
@@ -793,7 +796,7 @@
 		1499FFB018B1E8C8007A894B /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				8460385319581C2D00DF2F6A /* peertalk */,
+				84CBFDE21963CF75000A9F4A /* peertalk */,
 				8478BA871930B85600E6091A /* AFNetworking */,
 				8408625919263C7E000965BF /* HMGLTransitions */,
 				14C768D518EC243900EFE486 /* JSONKit */,
@@ -1110,22 +1113,6 @@
 			path = cellTemplates;
 			sourceTree = "<group>";
 		};
-		8460385319581C2D00DF2F6A /* peertalk */ = {
-			isa = PBXGroup;
-			children = (
-				846038691958222200DF2F6A /* PTExampleProtocol.h */,
-				8460385419581C2D00DF2F6A /* prefix.pch */,
-				8460385519581C2D00DF2F6A /* PTChannel.h */,
-				8460385619581C2D00DF2F6A /* PTChannel.m */,
-				8460385719581C2D00DF2F6A /* PTPrivate.h */,
-				8460385819581C2D00DF2F6A /* PTProtocol.h */,
-				8460385919581C2D00DF2F6A /* PTProtocol.m */,
-				8460385A19581C2D00DF2F6A /* PTUSBHub.h */,
-				8460385B19581C2D00DF2F6A /* PTUSBHub.m */,
-			);
-			path = peertalk;
-			sourceTree = "<group>";
-		};
 		8460386219581CC600DF2F6A /* MyUSB */ = {
 			isa = PBXGroup;
 			children = (
@@ -1317,6 +1304,21 @@
 			);
 			name = Model;
 			path = ../Model;
+			sourceTree = "<group>";
+		};
+		84CBFDE21963CF75000A9F4A /* peertalk */ = {
+			isa = PBXGroup;
+			children = (
+				84CBFDE31963CF75000A9F4A /* prefix.pch */,
+				84CBFDE41963CF75000A9F4A /* PTChannel.h */,
+				84CBFDE51963CF75000A9F4A /* PTChannel.m */,
+				84CBFDE61963CF75000A9F4A /* PTPrivate.h */,
+				84CBFDE71963CF75000A9F4A /* PTProtocol.h */,
+				84CBFDE81963CF75000A9F4A /* PTProtocol.m */,
+				84CBFDE91963CF75000A9F4A /* PTUSBHub.h */,
+				84CBFDEA1963CF75000A9F4A /* PTUSBHub.m */,
+			);
+			path = peertalk;
 			sourceTree = "<group>";
 		};
 		84CC6D0A1925B7DA00787F2F /* OpenUDID */ = {
@@ -1589,7 +1591,7 @@
 				1498157F18B308B800F3ED9C /* textViewController.m in Sources */,
 				140D0E2918A9D749006BE149 /* AppDelegate.m in Sources */,
 				84C6F39A19064A3800CCC62C /* DinerOrder.m in Sources */,
-				8460385C19581C2D00DF2F6A /* PTChannel.m in Sources */,
+				84CBFDEB1963CF75000A9F4A /* PTChannel.m in Sources */,
 				1498158C18B3128E00F3ED9C /* UserModel.m in Sources */,
 				1498157D18B308B800F3ED9C /* LoginViewController.m in Sources */,
 				84B7A21F193960CE0036ED79 /* SvGifViewViewController.m in Sources */,
@@ -1612,11 +1614,11 @@
 				1498157C18B308B800F3ED9C /* ImagePickerViewController.m in Sources */,
 				1498158918B30A0200F3ED9C /* TestModel.m in Sources */,
 				8428A6071905420300084BB3 /* SwipeGestureViewController.m in Sources */,
-				8460386019581C2D00DF2F6A /* PTUSBHub.m in Sources */,
+				84CBFDEF1963CF75000A9F4A /* PTUSBHub.m in Sources */,
 				8408626B19263C7E000965BF /* HMGLTransition.m in Sources */,
 				84C323031925F8A40031444F /* AnimationViewController.m in Sources */,
 				8408626F19263C7E000965BF /* DoorsTransition.m in Sources */,
-				8460385E19581C2D00DF2F6A /* PTProtocol.m in Sources */,
+				84CBFDED1963CF75000A9F4A /* PTProtocol.m in Sources */,
 				84C6F3931906419200CCC62C /* DinerViewController.m in Sources */,
 				8478BAA41930B85600E6091A /* AFURLResponseSerialization.m in Sources */,
 				8408627019263C7E000965BF /* FlipTransition.m in Sources */,
@@ -1667,6 +1669,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				849F056C192C891E001BDD24 /* TopsTools.m in Sources */,
+				84CBFDEE1963CF75000A9F4A /* PTProtocol.m in Sources */,
 				84CC6D0E1925B83E00787F2F /* OpenUDID.m in Sources */,
 				84CC6D091924C72D00787F2F /* PYCCParser in Sources */,
 				84222F29190693750020BC22 /* TestDao.m in Sources */,
@@ -1681,12 +1684,11 @@
 				146C271E18E024C30052D141 /* FMDatabaseAdditions.m in Sources */,
 				146C271F18E024C30052D141 /* FMDatabasePool.m in Sources */,
 				146C272018E024C30052D141 /* FMDatabaseQueue.m in Sources */,
-				8460386119581C2D00DF2F6A /* PTUSBHub.m in Sources */,
+				84CBFDEC1963CF75000A9F4A /* PTChannel.m in Sources */,
 				8428A6001903DD9D00084BB3 /* DenominatorNotZeroException.m in Sources */,
 				14C768DD18EC243900EFE486 /* JSONKit.m in Sources */,
 				146C272118E024C30052D141 /* FMResultSet.m in Sources */,
 				8428A6011903DD9D00084BB3 /* MyOperation.m in Sources */,
-				8460385D19581C2D00DF2F6A /* PTChannel.m in Sources */,
 				8428A57419028C3F00084BB3 /* AsyncTest.m in Sources */,
 				146C272218E024C30052D141 /* LKDaoBase.m in Sources */,
 				8460386519581D2A00DF2F6A /* MyUSB.m in Sources */,
@@ -1709,8 +1711,8 @@
 				8428A5F71903DD9D00084BB3 /* Car.m in Sources */,
 				146C271B18E01F930052D141 /* SecretModel.m in Sources */,
 				14371B4F18B3558900E04D6A /* MyTest.m in Sources */,
+				84CBFDF01963CF75000A9F4A /* PTUSBHub.m in Sources */,
 				8428A5FC1903DD9D00084BB3 /* MyRectangle.m in Sources */,
-				8460385F19581C2D00DF2F6A /* PTProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

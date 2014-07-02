@@ -1265,7 +1265,7 @@ segue：在这是用于连接scenes，其有类型(Push，Modal，Popover and mo
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3S-qP-DGZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="454" y="4905"/>
+            <point key="canvasLocation" x="290" y="4905"/>
         </scene>
         <!--Login 登录界面-->
         <scene sceneID="aAt-ja-MfV">

@@ -5,15 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8468E190-E8E8-4F17-A401-BB91CE2FFF2D</string>
+	<string>2FB378E5-FCCF-43B5-AF13-526BD20E5EF2</string>
 	<key>IDESourceControlProjectName</key>
 	<string>GoAppTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1EC422A5-0735-4203-97EE-0FEDF8BA6846</key>
 		<string>https://github.com/huos3203/GoAppTest.git</string>
-		<key>C74A7465-7926-4E08-B269-65BBE6B97F48</key>
-		<string>https://github.com/sqlcipher/sqlcipher.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>GoAppTest.xcodeproj/project.xcworkspace</string>
@@ -21,8 +19,6 @@
 	<dict>
 		<key>1EC422A5-0735-4203-97EE-0FEDF8BA6846</key>
 		<string>../..</string>
-		<key>C74A7465-7926-4E08-B269-65BBE6B97F48</key>
-		<string>../../../../../../../GitRepos/Repos/SQLCipherApp</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/huos3203/GoAppTest.git</string>
@@ -39,14 +35,6 @@
 			<string>1EC422A5-0735-4203-97EE-0FEDF8BA6846</string>
 			<key>IDESourceControlWCCName</key>
 			<string>GoAppTest</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C74A7465-7926-4E08-B269-65BBE6B97F48</string>
-			<key>IDESourceControlWCCName</key>
-			<string>SQLCipherApp</string>
 		</dict>
 	</array>
 </dict>
