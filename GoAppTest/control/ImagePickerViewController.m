@@ -35,6 +35,7 @@
         self.mediaTypes = temp_mediaTypes;
         //        picker.allowsEditing = YES;
     }
+
 }
 
 - (void)didReceiveMemoryWarning

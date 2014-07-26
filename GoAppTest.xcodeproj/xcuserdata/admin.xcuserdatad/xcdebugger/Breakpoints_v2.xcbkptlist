@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GHUnitTest/SqliteHelp/SqliteHelp.m"
-            timestampString = "425206898.292734"
+            timestampString = "421318153.674266"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "-insertOrUpdateData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -65,39 +65,6 @@
             endingLineNumber = "53"
             landmarkName = "-viewDidAppear:"
             landmarkType = "5">
-<<<<<<< HEAD
-=======
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[DownLoadViewController viewDidAppear:]"
-                  moduleName = "GoAppTest"
-                  urlString = "file:///Users/admin/Downloads/SVNRepos/local/trunk/IOS/GoAppTest/GoAppTest/control/ScrollViewVc/cellTemplates/DownLoadViewController.m"
-                  timestampString = "425975388.704137"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "136">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[DownLoadViewController viewDidAppear:]"
-                  moduleName = "GoAppTest"
-                  urlString = "file:///Users/admin/Downloads/SVNRepos/local/trunk/IOS/GoAppTest/GoAppTest/control/ScrollViewVc/cellTemplates/DownLoadViewController.m"
-                  timestampString = "425975388.70446"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "654">
-               </Location>
-            </Locations>
->>>>>>> swift
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -161,6 +128,22 @@
             startingLineNumber = "150"
             endingLineNumber = "150"
             landmarkName = "-getNormalCell:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoAppTest/control/SwipeGestureViewController.m"
+            timestampString = "423043836.795747"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "-ibaImageTapGuest:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

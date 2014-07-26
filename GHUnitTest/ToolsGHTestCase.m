@@ -41,7 +41,7 @@
 
 -(void)testPyccParser
 {
-//NSPlainTextDocumentType
+NSPlainTextDocumentType
 }
 
 -(void)testUuid {
