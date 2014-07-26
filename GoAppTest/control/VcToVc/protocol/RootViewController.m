@@ -27,6 +27,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIImageView *imageView = [[UIImageView alloc] init];
+    imageView.bounds = CGRectMake(0, 0, 25, 22);
+    imageView.image = [UIImage imageNamed:@"tag_icon.png"];
+
+    self.navigationItem.titleView = imageView;
 }
 
 - (void)didReceiveMemoryWarning

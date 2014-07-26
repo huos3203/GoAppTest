@@ -849,10 +849,10 @@
             </objects>
             <point key="canvasLocation" x="1287" y="3870"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller  传值-->
         <scene sceneID="WLY-Q9-ALd">
             <objects>
-                <navigationController definesPresentationContext="YES" id="EgE-lH-tC5" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="EgE-lH-tC5" userLabel="Navigation Controller  传值" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qza-5s-SIl">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1072,10 +1072,10 @@
             </objects>
             <point key="canvasLocation" x="1229" y="4905"/>
         </scene>
-        <!--FirstVC-->
+        <!--FirstVC   传值-->
         <scene sceneID="yDE-OJ-aHt">
             <objects>
-                <viewController id="KUV-tS-d46" customClass="FirstVC" sceneMemberID="viewController">
+                <viewController id="KUV-tS-d46" userLabel="FirstVC   传值" customClass="FirstVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gz5-rt-hV1"/>
                         <viewControllerLayoutGuide type="bottom" id="L9A-fq-w2V"/>
@@ -1119,10 +1119,10 @@
             </objects>
             <point key="canvasLocation" x="1945" y="4858"/>
         </scene>
-        <!--SecondVC-->
+        <!--SecondVC  传值-->
         <scene sceneID="u9x-Mp-C9z">
             <objects>
-                <viewController id="ag6-t4-ObQ" customClass="secondVC" sceneMemberID="viewController">
+                <viewController id="ag6-t4-ObQ" userLabel="SecondVC  传值" customClass="secondVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DZ8-Ne-CPa"/>
                         <viewControllerLayoutGuide type="bottom" id="vTm-Lp-4Hu"/>
@@ -1159,10 +1159,10 @@
             </objects>
             <point key="canvasLocation" x="2399" y="4858"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Root View Controller  传值-->
         <scene sceneID="o0v-08-MmI">
             <objects>
-                <viewController id="DSI-Wy-HJQ" customClass="RootViewController" sceneMemberID="viewController">
+                <viewController id="DSI-Wy-HJQ" userLabel="Root View Controller  传值" customClass="RootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6LZ-f8-9Rt"/>
                         <viewControllerLayoutGuide type="bottom" id="c92-6u-cAi"/>
@@ -1206,10 +1206,10 @@
             </objects>
             <point key="canvasLocation" x="3814" y="4850"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Detail View Controller  传值-->
         <scene sceneID="7Au-1V-eoL">
             <objects>
-                <viewController id="tdS-JE-P54" customClass="DetailViewController" sceneMemberID="viewController">
+                <viewController id="tdS-JE-P54" userLabel="Detail View Controller  传值" customClass="DetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="G20-b8-xbp"/>
                         <viewControllerLayoutGuide type="bottom" id="udJ-bU-s5M"/>
@@ -1687,10 +1687,10 @@ COWbm+S9jeaVsOWvhueggQ
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iwz-Gy-9o6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller 传值-->
         <scene sceneID="LKI-TM-qK9">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WK5-TS-szA" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WK5-TS-szA" userLabel="Navigation Controller 传值" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OUG-o0-H6V">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

@@ -150,6 +150,7 @@
 		84298A861983565A00A45413 /* secondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A851983565A00A45413 /* secondVC.m */; };
 		84298A89198396F300A45413 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A88198396F300A45413 /* RootViewController.m */; };
 		84298A8C1983975200A45413 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A8B1983975200A45413 /* DetailViewController.m */; };
+		84298A8E1983B5A700A45413 /* tag_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84298A8D1983B5A700A45413 /* tag_icon.png */; };
 		8437C5B6192E27E000DB651B /* MyCellCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437C5B5192E27E000DB651B /* MyCellCache.m */; };
 		8437C5B9192E281700DB651B /* MyTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437C5B8192E281700DB651B /* MyTask.m */; };
 		8437C5BC192E2D2600DB651B /* NormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437C5BB192E2D2600DB651B /* NormalCell.m */; };
@@ -436,6 +437,7 @@
 		84298A88198396F300A45413 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		84298A8A1983975200A45413 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		84298A8B1983975200A45413 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		84298A8D1983B5A700A45413 /* tag_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag_icon.png; sourceTree = "<group>"; };
 		8437C5B4192E27E000DB651B /* MyCellCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellCache.h; sourceTree = "<group>"; };
 		8437C5B5192E27E000DB651B /* MyCellCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellCache.m; sourceTree = "<group>"; };
 		8437C5B7192E281700DB651B /* MyTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTask.h; sourceTree = "<group>"; };
@@ -877,6 +879,7 @@
 				8408627A192642CD000965BF /* HMLogo.png */,
 				849202EB19238EC200A45357 /* app_bg.png */,
 				849202EC19238EC200A45357 /* btn_done_down@2x.png */,
+				84298A8D1983B5A700A45413 /* tag_icon.png */,
 				849202ED19238EC200A45357 /* btn_done_up@2x.png */,
 				849202EE19238EC200A45357 /* btn_selected1.png */,
 				849202EF19238EC200A45357 /* btn_selected2.png */,
@@ -1461,6 +1464,7 @@
 				140D0E2318A9D749006BE149 /* InfoPlist.strings in Resources */,
 				841DF0F819061B5500C72F15 /* sign_theiOSdiner@2x.png in Resources */,
 				841DF0E119061B5500C72F15 /* food_box.png in Resources */,
+				84298A8E1983B5A700A45413 /* tag_icon.png in Resources */,
 				841DF0F919061B5500C72F15 /* total_field.png in Resources */,
 				849202F419238EC200A45357 /* btn_done_down@2x.png in Resources */,
 				841DF0E819061B5500C72F15 /* food_hamburger@2x.png in Resources */,
