@@ -28,6 +28,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+//    UIDocumentInteractionController* docController = [UIDocumentInteractionController interactionControllerWithURL:nil];
+    
+//    docController.delegate = self;
+//    [docController retain];
+    
+//    BOOL result = [docController presentPreviewAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning

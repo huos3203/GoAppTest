@@ -35,7 +35,7 @@
     imgScrollArr = [[NSMutableArray alloc] init];
     for (int i = 0; i<3; i++) {
         //加载在独立Xib文件中自定义的控件scrollview ，下文简称为:独立scrollview
-        NSArray* nibView =  [[NSBundle mainBundle] loadNibNamed:@"ImageScrollView" owner:self options:nil];
+        NSArray* nibView =  [[NSBundle mainBundle] loadNibNamed:@"ImageÏScrollView" owner:self options:nil];
         UIView *containView =[nibView objectAtIndex:0];
         //设置独立srollview的子控件imageView
         [ibImageScrollViewSub setImage:[UIImage imageNamed:[NSString stringWithFormat:@"new_feature_%d.png",i+1]]];
