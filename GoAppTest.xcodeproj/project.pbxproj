@@ -146,6 +146,10 @@
 		8428A6031903DD9D00084BB3 /* Police.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428A5F31903DD9D00084BB3 /* Police.m */; };
 		8428A6041903DD9D00084BB3 /* Prisoner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428A5F51903DD9D00084BB3 /* Prisoner.m */; };
 		8428A6071905420300084BB3 /* SwipeGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8428A6061905420300084BB3 /* SwipeGestureViewController.m */; };
+		84298A83198352DC00A45413 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A82198352DC00A45413 /* FirstVC.m */; };
+		84298A861983565A00A45413 /* secondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A851983565A00A45413 /* secondVC.m */; };
+		84298A89198396F300A45413 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A88198396F300A45413 /* RootViewController.m */; };
+		84298A8C1983975200A45413 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A8B1983975200A45413 /* DetailViewController.m */; };
 		8437C5B6192E27E000DB651B /* MyCellCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437C5B5192E27E000DB651B /* MyCellCache.m */; };
 		8437C5B9192E281700DB651B /* MyTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437C5B8192E281700DB651B /* MyTask.m */; };
 		8437C5BC192E2D2600DB651B /* NormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8437C5BB192E2D2600DB651B /* NormalCell.m */; };
@@ -424,6 +428,14 @@
 		8428A5F51903DD9D00084BB3 /* Prisoner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prisoner.m; sourceTree = "<group>"; };
 		8428A6051905420300084BB3 /* SwipeGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeGestureViewController.h; sourceTree = "<group>"; };
 		8428A6061905420300084BB3 /* SwipeGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeGestureViewController.m; sourceTree = "<group>"; };
+		84298A81198352DC00A45413 /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		84298A82198352DC00A45413 /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		84298A841983565A00A45413 /* secondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondVC.h; sourceTree = "<group>"; };
+		84298A851983565A00A45413 /* secondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondVC.m; sourceTree = "<group>"; };
+		84298A87198396F300A45413 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		84298A88198396F300A45413 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		84298A8A1983975200A45413 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		84298A8B1983975200A45413 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		8437C5B4192E27E000DB651B /* MyCellCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellCache.h; sourceTree = "<group>"; };
 		8437C5B5192E27E000DB651B /* MyCellCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellCache.m; sourceTree = "<group>"; };
 		8437C5B7192E281700DB651B /* MyTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTask.h; sourceTree = "<group>"; };
@@ -623,8 +635,8 @@
 				149D26D918AC63D3005A59E0 /* tool */,
 				140D0E2718A9D749006BE149 /* AppDelegate.h */,
 				140D0E2818A9D749006BE149 /* AppDelegate.m */,
-				140D0E2A18A9D749006BE149 /* Main.storyboard */,
 				140D0E3018A9D749006BE149 /* Images.xcassets */,
+				140D0E2A18A9D749006BE149 /* Main.storyboard */,
 				140D0E1F18A9D749006BE149 /* Supporting Files */,
 				841DF0A719061B5500C72F15 /* Resources */,
 				8480B24B1953DEB900B38F22 /* GoAppTest-Bridging-Header.h */,
@@ -1033,6 +1045,21 @@
 			path = Police;
 			sourceTree = "<group>";
 		};
+		84298A801983524800A45413 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				84298A81198352DC00A45413 /* FirstVC.h */,
+				84298A82198352DC00A45413 /* FirstVC.m */,
+				84298A841983565A00A45413 /* secondVC.h */,
+				84298A851983565A00A45413 /* secondVC.m */,
+				84298A87198396F300A45413 /* RootViewController.h */,
+				84298A88198396F300A45413 /* RootViewController.m */,
+				84298A8A1983975200A45413 /* DetailViewController.h */,
+				84298A8B1983975200A45413 /* DetailViewController.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
 		8437C5B3192E27E000DB651B /* cellTemplates */ = {
 			isa = PBXGroup;
 			children = (
@@ -1087,6 +1114,7 @@
 		8478BA801930777A00E6091A /* VcToVc */ = {
 			isa = PBXGroup;
 			children = (
+				84298A801983524800A45413 /* protocol */,
 				8478BA811930A2F400E6091A /* FirstViewController.h */,
 				8478BA821930A2F400E6091A /* FirstViewController.m */,
 				8478BA841930A34100E6091A /* PresentedViewController.h */,
@@ -1511,6 +1539,7 @@
 				8408626E19263C7E000965BF /* ClothTransition.m in Sources */,
 				8437C5C2192E2D6400DB651B /* MyCellCacheList.m in Sources */,
 				8408626C19263C7E000965BF /* HMGLTransitionManager.m in Sources */,
+				84298A89198396F300A45413 /* RootViewController.m in Sources */,
 				1498158618B309AF00F3ED9C /* DataFactory.m in Sources */,
 				84E4568E1928B93D00C06FE5 /* BlockUIAlertView.m in Sources */,
 				849202FD1923A4F400A45357 /* FontTableViewController.m in Sources */,
@@ -1524,6 +1553,7 @@
 				8408626F19263C7E000965BF /* DoorsTransition.m in Sources */,
 				84C6F3931906419200CCC62C /* DinerViewController.m in Sources */,
 				8478BAA41930B85600E6091A /* AFURLResponseSerialization.m in Sources */,
+				84298A861983565A00A45413 /* secondVC.m in Sources */,
 				8408627019263C7E000965BF /* FlipTransition.m in Sources */,
 				84086279192640FC000965BF /* HMGLModalViewController.m in Sources */,
 				8437C5B9192E281700DB651B /* MyTask.m in Sources */,
@@ -1533,6 +1563,7 @@
 				8437C5BC192E2D2600DB651B /* NormalCell.m in Sources */,
 				8478BAA51930B85600E6091A /* AFURLSessionManager.m in Sources */,
 				84E456821928820F00C06FE5 /* DirectionViewController.m in Sources */,
+				84298A8C1983975200A45413 /* DetailViewController.m in Sources */,
 				8478BAAD1930BD7400E6091A /* DownListViewController.m in Sources */,
 				149D26E018AC6612005A59E0 /* WeixinDialog.m in Sources */,
 				84CEC78319092E510006DE7F /* TopsTools.m in Sources */,
@@ -1545,6 +1576,7 @@
 				8408626D19263C7E000965BF /* HMGLTransitionView.m in Sources */,
 				8437C5B6192E27E000DB651B /* MyCellCache.m in Sources */,
 				84E4568B1928B5DF00C06FE5 /* BlockButton.m in Sources */,
+				84298A83198352DC00A45413 /* FirstVC.m in Sources */,
 				8437C5C5192E2DE600DB651B /* DownLoadViewController.m in Sources */,
 				8478BAA11930B85600E6091A /* AFSecurityPolicy.m in Sources */,
 				1499FFC018B1E8C8007A894B /* FMResultSet.m in Sources */,
