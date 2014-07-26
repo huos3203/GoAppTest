@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>C8F27388-CEAC-46C4-8BF6-4F68B4944A3D</string>
+=======
+	<string>2FB378E5-FCCF-43B5-AF13-526BD20E5EF2</string>
+>>>>>>> swift
 	<key>IDESourceControlProjectName</key>
 	<string>GoAppTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -40,6 +44,7 @@
 			<key>IDESourceControlWCCName</key>
 			<string>GoAppTest</string>
 		</dict>
+<<<<<<< HEAD
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
@@ -48,6 +53,8 @@
 			<key>IDESourceControlWCCName</key>
 			<string>SQLCipherApp</string>
 		</dict>
+=======
+>>>>>>> swift
 	</array>
 </dict>
 </plist>

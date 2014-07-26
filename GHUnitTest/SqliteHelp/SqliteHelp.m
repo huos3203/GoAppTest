@@ -63,8 +63,16 @@
             //获取旧表中的字段名
             NSString *theSql=[NSString stringWithFormat:@"select * from %@",tableName];
             if (sqlite3_prepare(_database, [theSql UTF8String], -1, &_statement, nil) == SQLITE_OK) {
+               
+                //表字段列的数据类型
+                    //#define SQLITE_INTEGER  1
+                    //#define SQLITE_FLOAT    2
+                    //#define SQLITE_BLOB     4
+                    //#define SQLITE_NULL     5
                 int ii = sqlite3_column_type(_statement, 0);
+                //   表字段字段列名
                 const char *iname = sqlite3_column_name(_statement, 0);
+               //表字段列数
                 int iicount = sqlite3_column_count(_statement);
 //                sqlite3_value *ivalue = sqlite3_column_value(_statement, 1);
 //                [sqlite3_value valueForKey:<#(NSString *)#>]

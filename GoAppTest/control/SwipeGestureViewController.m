@@ -68,7 +68,8 @@
 }
 - (IBAction)ibaImageTapGuest:(UITapGestureRecognizer*)sender
 {
-    
+    [UIImage imageNamed:@"Brad Cox"];
+    [UIColor redColor];
     NSLog(@"点击事件:……%d",sender.numberOfTapsRequired);
 }
 
